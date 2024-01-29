@@ -1,0 +1,24 @@
+name: Convert Issue To Pull Request
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  convert-issue-to-pr:
+    runs-on: ubuntu-latest
+    env:
+      DOMAIN: ${{ secrets.DOMAIN }}
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Convert Issue To PR
+        run: |
+          echo "Converting Issue To PR"
+          echo ${{ github.event.issue.number }}
+          curl --header "Content-Type: application/json" \
+               --request POST \
+               --data '{"issue_number": "'${{ github.event.issue.number }}'"}' \
+               "${DOMAIN}/application"

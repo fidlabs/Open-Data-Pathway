@@ -1,0 +1,24 @@
+name: Update Pull Request from Issue Modification
+
+on:
+  issues:
+    types:
+      - edited
+
+jobs:
+  update-pr-from-issue:
+    runs-on: ubuntu-latest
+    env:
+      DOMAIN: ${{ secrets.DOMAIN }}
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Update PR from Issue
+        run: |
+          echo "Updating PR from Issue Modification"
+          echo ${{ github.event.issue.number }}
+          curl --header "Content-Type: application/json" \
+               --request POST \
+               --data '{"issue_number": "'${{ github.event.issue.number }}'"}' \
+               "${DOMAIN}/application/update-issue"

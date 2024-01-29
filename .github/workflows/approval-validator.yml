@@ -1,0 +1,35 @@
+name: Validate Application Approval
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+  pull_request_review:
+    types:
+      - submitted
+
+jobs:
+  validate-approval:
+    runs-on: ubuntu-latest
+    env:
+      DOMAIN: ${{ secrets.DOMAIN }}
+    steps:
+      - name: Call Backend to Validate Application Approval
+        id: validate
+        run: |
+          echo "Calling backend to validate with pr_number: ${{ github.event.pull_request.number }} and user_handle: ${{ github.actor }}"
+          RESPONSE=$(curl --header "Content-Type: application/json" \
+            --request POST \
+            --data '{"pr_number": "'${{ github.event.pull_request.number }}'", "user_handle": "'${{ github.actor }}'"}' \
+            "${DOMAIN}/application/approval/validate")
+          echo "Response from validation: $RESPONSE"
+
+          if [ "$RESPONSE" != "true" ]; then
+            echo "Error: Validation returned false"
+            exit 1
+          fi
+
+      - name: Validation Success
+        if: steps.validate.outcome == 'success'
+        run: echo "Validation successful!"

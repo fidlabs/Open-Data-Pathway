@@ -1,0 +1,40 @@
+# This workflow will automerge a pull request when some conditions are met.
+# Use Cases:
+# - When an application (new or refill) is proposed and approved by two notaries.
+#     · application.info.application_lifecycle.state == 'Confirmed'
+#     · application.info.application_lifecycle.first_allocation_time != ''
+# - When an application has reached its total datacap and the SSA bot marked it as inactive
+#     · application.info.application_lifecycle.is_active == false
+name: Automerge Pull Request
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - main
+
+jobs:
+  automerge-pr:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
+
+    - name: Install Dependencies
+      run: npm install axios
+
+    - name: Run Script
+      env:
+        PR_NUMBER: ${{ github.event.pull_request.number }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        OWNER: ${{ github.event.repository.owner.login }}
+        REPO: ${{ github.event.repository.name }}
+      run: node .github/scripts/automerge-pr.mjs
