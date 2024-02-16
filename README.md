@@ -8,27 +8,26 @@ Below is an summary of the key client requirements and processes that the Fileco
 Current Scope: 
 - Any client looking to onboard an open, public dataset to Filecoin can apply to this allocator pathway. 
 
-Minimum requirements:
+Minimum client requirements:
 - At least two sealed copies of a dataset, stored with two separate Storage Provider entities, each in different regional locations.
 - The dataset is made readily retrievable (via an unsealed copy) on the network and can be regularly verified (through the use of manual or automated verification that includes retrieving data over the course of the DataCap allocation timeframe).
-
-Client requirements: 
 - Clients are required to apply for DataCap using the following GitHub repo LINK (coming soon) which contains questions related to the client role, data preparation, financing, dataset details, and storage provider distribution plan
 
-Diligence on clients includes:
-- New User Check
+Diligence to be completed on clients includes:
+
+New User Check
   - Is this a completely new GitHub ID? (less than 2 months old)
   - Is this the first time this GitHub ID has applied for DataCap in this or other allocotor pathways?
   - If yes to either, applicants will have a maximum DataCap allowance for their first application (see allocation breakdown below)
 
-Client Check (KYC)
+Client ID Check (KYC)
 - All applicants will be asked if they are willing to complete a free know your customer (KYC) check to confirm themself as a human user associated with a speicific GitHub ID.
 - If they decline the check, they will be significantly limited in the maximum amount of DataCap they can request unless they are able to provide other forms of client identification.
 - With our KYC check design, users are asked to validate their ID and livelihood via a link on filplus.storage and their submitted information is then encrypted and stored in a decentralized manner across the third party provider, Togggle.io, servers. This information is never shared with the allocator team, nor in public in this GitHub repo. 
 
-Storage Provider Usage
+Storage Provider (SP) Usage Check
 - Clients of this pathway will have access to an SP Marketplace tool (link soon) and clients are free to work with any SPs from the vetted list. 
-- Clients are also free to select their own storage providers. However, if a client does not intend to use SPs from the vetted SP marketplace, or a vetted Protocol Labs network tool (example: SPADE), then they will be required to provide additional proof of business (KYB) information on the SPs they will use to onboard data, in order to get additional allocations approved. Examples of info include: Business license, proof of datacenter address
+- Clients are also free to select their own SPs. However, if a client does not intend to use SPs from the vetted SP marketplace, or a vetted Protocol Labs network tool (example: SPADE), then they will be required to provide additional proof of business (KYB) information on the SPs they will use to onboard data, in order to get additional allocations approved. Examples of info include: Business license, proof of datacenter address
 
 Allocation Tranche Schedule to clients:
 - As mentioned above, each application will have the GitHub ID assessed to confirm if they are a new GitHub ID (less than 2 months old) or first time user to the allocator. If so they will follow first allocation schedule below:
@@ -61,3 +60,12 @@ When clients use up > 75% of the prior DataCap allocation, a request for additio
 Two other points to note about DataCap allocation and subsequent usage: 
 1) There is an expiration date on allocation of DataCap of 3 months. From an allocation date, we will measure 3 months time and if the allocation has not been used (open or closed status), the application will be closed and remaining DataCap removed.
 2) The expectation when the complete amount of requested DataCap is allocated is that the client has completely finished onboarding their dataset and replicas. If a client receives a Datacap allocation, then closes their application before completion, they will be questioned as to why. Or, if a client receives a DataCap allocation and abandons the application and becomes completely non responsive, their GitHub ID will be flagged from any future participation in the pathway. 
+
+Compliance check mechanisms for the client applications:
+- After each allocation we will manually review the on-chain deal making activity of the applicant to confirm compliance mostly relying on the AC Bot, which runs weekly, to identify non-compliance of deal making, distribution and retrievals and that information will be used to drive action on applications. The bot will be set up to automatically close applications after several allocations if thresholds are not met.
+- At any point if clients are caught providing fake or misleading information about themselves or their SP partners, we will close any open applications and add the GitHub user IDs and miner IDs involved and block them from future participation in the allocator
+
+Disputes/Appeals:
+- For any disputes between our allocator and a client, hereby termed appeal(s), we will source the appeals through the Open Data Allocator Appeals Form (https://docs.google.com/forms/d/e/1FAIpQLSfkdb_p9sg5sx_bnSlX0r9rdKXFGmz4dGC1cBtMEYuDym3Ecw/viewform) where all our clients can submit an appeal and someone on the allocator team will address it with a 14 day SLA. 
+- We would like to respect the privacy of the client and do not plan to host a public resolution process.
+- For disputes raised by community members/non-clients about our allocation approach and strategy, we will comply with the public dispute tracker that is being built by the Filecoin Foundation Governance team. We can commit an SLA for such disputes to be 21 days.
