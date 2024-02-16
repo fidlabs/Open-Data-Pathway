@@ -54,11 +54,12 @@ The allocation schedule for trusted users is:
 
 After successful onboarding of a dataset as a trusted GitHub ID, users then become eligible to apply for 5PiB+ as needed to meet their demand.
 
-When clients use up > 75% of the prior DataCap allocation, a request for additional DataCap in the form of the next tranche is automatically kicked off (via the subsequent allocation bot'). We will set an SLA (Service Level Agreement) to keep up with allocation review and comment on bot messages within 3 days.
+Subsequent allocation schedule:
+- When clients use up > 75% of the prior DataCap allocation, a request for additional DataCap in the form of the next tranche is automatically kicked off (via the subsequent allocation bot). The allocator team will set an SLA (Service Level Agreement) to keep up with allocation review and comment on bot messages within 3 days.
 
 Two other points to note about DataCap allocation and subsequent usage: 
-1) There is an expiration date on allocation of DataCap of 3 months. From an allocation date, we will measure 3 months time and if the allocation has not been used (open or closed status), the application will be closed and remaining DataCap removed.
-2) The expectation when the complete amount of requested DataCap is allocated is that the client has completely finished onboarding their dataset and replicas. If a client receives a Datacap allocation, then closes their application before completion, they will be questioned as to why. Or, if a client receives a DataCap allocation and abandons the application and becomes completely non responsive, their GitHub ID will be flagged from any future participation in the pathway. 
+1) There is an expiration date of three months on any allocation of DataCap. From an allocation date, we will measure three months time and if the allocation has not been used (open or closed status), the application will be closed and remaining DataCap removed.
+2) The expectation when the complete amount of requested DataCap is allocated is that the client has completely finished onboarding their dataset and replicas. If a client receives a Datacap allocation, then closes their application before completion, they will be questioned as to why. Likewise, if a client receives a DataCap allocation and abandons the application and becomes completely non responsive, their GitHub ID will be flagged from any future participation in the pathway. 
 
 Compliance check mechanisms for the client applications:
 - After each allocation we will manually review the on-chain deal making activity of the applicant to confirm compliance mostly relying on the AC Bot, which runs weekly, to identify non-compliance of deal making, distribution and retrievals and that information will be used to drive action on applications. The bot will be set up to automatically close applications after several allocations if thresholds are not met.
