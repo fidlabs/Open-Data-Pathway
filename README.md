@@ -46,12 +46,11 @@ AND have completed the third party KYC check or other form of KYC, then they bec
 
 Note: if first time applicants apply for multiple applications at the same time, only after a completion of one, will the count be included and increased allocation sizes become available.
 
-The allocation schedule for trusted users is:
-                                         
-1st allocation         5%
-2nd allocation        15%
-3rd allocation        30%
-4th allocation        50%
+The allocation schedule for trusted users is:                                     
+- 1st allocation         5%
+- 2nd allocation        15%
+- 3rd allocation        30%
+- 4th allocation        50%
 
 After successful onboarding of a dataset as a trusted GitHub ID, users then become eligible to apply for 5PiB+ as needed to meet their demand.
 
