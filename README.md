@@ -1,5 +1,7 @@
 # Open-Data-Pathway
 
+Contact: kevin@fidl.tech or @KZ on Filecoin Slack
+
 Background:
 - The details of this allocator pathway were initially described in an application to the Fil+ Governance Team in December 2023: [LINK](https://github.com/filecoin-project/notary-governance/issues/996). 
 
