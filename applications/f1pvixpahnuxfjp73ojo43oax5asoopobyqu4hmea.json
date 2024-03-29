@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ID": "f1pvixpahnuxfjp73ojo43oax5asoopobyqu4hmea",
+  "Issue Number": "6",
+  "Client": {
+    "Name": "web3eye.io",
+    "Region": "Hong Kong",
+    "Industry": "Web3 / Crypto",
+    "Website": "https://testnet.web3eye.",
+    "Social Media": "@web3_eye",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "1",
+    "Brief history of your project and organization": "Currently in the world of NFT, many methods for obtaining information about blockchain are complex and difficult for users to use, making it difficult for the public to obtain information.\r\nFurthermore, various blockchain project data is in a fragmented state currently, making it even more difficult to obtain or organize information. Web3Eye is a search engine that aggregates historical NFT transaction records, and provides multi-chain aggregation search for NFT assets.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Due to so many NFTs are stored in IPFS, or central server, sometimes when we view the exist NFT, we get error for the missed data. we think of it's valuable to make snapshot for those data. So in web3eye.io's engine, we parse the NFT history, generate snapshot for them, then store to Filecoin. When user search the data, and we know its original data is missed, then we'll recover from Filecoin for user, and let user know its original source is lost.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "After generate the snapshot by our cross-chain meta engine, the data will be cut into disks through Singularity, and then the hard disk is mailed to the SPs.\r\nWe also provide online method to fetch the data from our data source. If one of the copy is stored successfully, the original snapshot will be removed from the source.\r\nWe also implement a car generating tool to generate car file, then send to preset miners online.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "# Tarball with a bunch of NFT data\r\n-rw-rw-r-- 1 coast coast 2148532224  3月  6 13:04 fdd65bf6-db76-11ee-8b8f-e7daf58958d9.tar.gz\r\n-rw-rw-r-- 1 coast coast 2148532224  3月  6 13:04 fdd6b2f4-db76-11ee-932f-b7e26d86e3b0.tar.gz\r\n-rw-rw-r-- 1 coast coast 2148532224  3月  6 13:04 fdd70a56-db76-11ee-b873-476f4f5f23c0.tar.gz\r\n-rw-rw-r-- 1 coast coast 2148532224  3月  6 13:04 fdd76366-db76-11ee-8b14-93209f72bdaa.tar.gz\r\n-rw-rw-r-- 1 coast coast 2148532224  3月  6 13:04 fdd7c8ce-db76-11ee-9968-b73681ea7bfb.tar.gz\r\n-rw-rw-r-- 1 coast coast 2148532224  3月  6 13:04 fdd8401a-db76-11ee-94a6-bb3bcf1b70ec.tar.gz\r\n-rw-rw-r-- 1 coast coast 2148532224  3月  6 13:04 fdd8c2f6-db76-11ee-a1aa-7f7632305de8.tar.gz\r\n-rw-rw-r-- 1 coast coast 2148532224  3月  6 13:04 fdd93b6e-db76-11ee-97f6-dbd9d8c0e1f5.tar.gz\r\n-rw-rw-r-- 1 coast coast 2148532224  3月  6 13:04 fdd99cd0-db76-11ee-95ff-ebf3bb4da26a.tar.gz\r\n-rw-rw-r-- 1 coast coast 2148532224  3月  6 13:04 fdda004e-db76-11ee-8034-8b110be82bb3.tar.gz\r\n\r\n# Car file generated with above tarball\r\n-rw-rw-r-- 1 coast coast 113246208  3月  6 13:04 fdd65bf6-db76-11ee-8b8f-e7daf58958d9.car\r\n-rw-rw-r-- 1 coast coast 113246208  3月  6 13:04 fdd6b2f4-db76-11ee-932f-b7e26d86e3b0.car\r\n-rw-rw-r-- 1 coast coast 113246208  3月  6 13:04 fdd70a56-db76-11ee-b873-476f4f5f23c0.car\r\n-rw-rw-r-- 1 coast coast 113246208  3月  6 13:04 fdd76366-db76-11ee-8b14-93209f72bdaa.car\r\n-rw-rw-r-- 1 coast coast 113246208  3月  6 13:04 fdd7c8ce-db76-11ee-9968-b73681ea7bfb.car\r\n-rw-rw-r-- 1 coast coast 113246208  3月  6 13:04 fdd8401a-db76-11ee-94a6-bb3bcf1b70ec.car\r\n-rw-rw-r-- 1 coast coast 113246208  3月  6 13:04 fdd8c2f6-db76-11ee-a1aa-7f7632305de8.car\r\n-rw-rw-r-- 1 coast coast 113246208  3月  6 13:04 fdd93b6e-db76-11ee-97f6-dbd9d8c0e1f5.car\r\n-rw-rw-r-- 1 coast coast 113246208  3月  6 13:04 fdd99cd0-db76-11ee-95ff-ebf3bb4da26a.car\r\n-rw-rw-r-- 1 coast coast 113246208  3月  6 13:04 fdda004e-db76-11ee-8034-8b110be82bb3.car\r\n\r\n# Original NFT data\r\n-rw-rw-r-- 1 coast coast     72586  2月 24  2023 1000.webp\r\n-rw-rw-r-- 1 coast coast    359239  9月 12 12:02 1109.png\r\n-rw-rw-r-- 1 coast coast    375057  6月 18  2023 1_front.png\r\n-rw-rw-r-- 1 coast coast   1417554  8月  7  2023 22_3.png\r\n-rw-rw-r-- 1 coast coast     78969  8月 11  2023 4b560f2f-934c-43dc-9021-6f4d62fec19e\r\n-rw-rw-r-- 1 coast coast     18252  6月 18  2023 613.png\r\n-rw-rw-r-- 1 coast coast     22102  6月 18  2023 617.png\r\n-rw-rw-r-- 1 coast coast   5081267  6月 18  2023 788.png\r\n-rw-rw-r-- 1 coast coast    110899  2月 20  2023 8ce3abd5936a2ad5ffc03a27114eeb26.avif\r\n-rw-rw-r-- 1 coast coast    803970  8月 21  2023 917590f0c295682acc5aa07f65d219db54b964d8.png\r\n-rw-rw-r-- 1 coast coast   1413857  6月 18  2023 99.png\r\n-rw-rw-r-- 1 coast coast    226886  8月 17  2023 body-7a-eyes-32b-clothes-80f-hairs-21e-earrings-21a.webp\r\n-rw-rw-r-- 1 coast coast 209715200  3月  6 11:41 data.bin\r\n-rw-rw-r-- 1 coast coast   1413857  6月 18  2023 eee.png\r\n-rw-rw-r-- 1 coast coast     94281  6月 18  2023 he.jpeg\r\n-rw-rw-r-- 1 coast coast  13306505  8月 17  2023 LiNHX_TiexGO0DRC4rUl3Fa9oH74Ny9vY_MYmbPWRoY.jpeg\r\n-rw-rw-r-- 1 coast coast      7164  6月 18  2023 nn.jpeg\r\n-rw-rw-r-- 1 coast coast    762051  9月 21 08:57 QmaMG7ygHJiXizKBwdddyKnPBBdRiYX5yac9uuQaBqB7mj.png\r\n-rw-rw-r-- 1 coast coast   2706728  9月 15 16:37 QmXsX73NjzMKz62ukADqGGxAYcGdamrwUutWiFUp6JqR8Q.png",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "| MinerID | Entity | City | Continent |\r\n| --------- | ---------- | ---------- | --------- |\r\n| f01970622 | Padeng  | HongKong | Asia |\r\n| TBD(Our New Miner)   | web3eye.io | HongKong | Asia |\r\n| f01146045   | Tianzhi | Singapore | Asia |\r\n| f0832131  | Beishou | YangZhou,CN | Asia |",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "1PiB",
+    "Single Size Dataset": "512TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "50TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-03-19 19:38:47.187575426 UTC",
+    "Validated By": "kevzak",
+    "Active": true,
+    "Updated At": "2024-03-29 11:53:47.536457640 UTC",
+    "Active Request ID": "a40d9d68-71fd-4f4d-b05b-f61a68436893",
+    "On Chain Address": "f1pvixpahnuxfjp73ojo43oax5asoopobyqu4hmea",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "a40d9d68-71fd-4f4d-b05b-f61a68436893",
+      "Request Type": "First",
+      "Created At": "2024-03-19 19:38:47.187582358 UTC",
+      "Updated At": "2024-03-19 19:38:47.187583705 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "kevzak",
+          "Signing Address": "f1v24knjbqv5p6qrmfjj5xmlaoddzqnon2oxkzkyq",
+          "Created At": "2024-03-29 11:53:45.541000000 UTC",
+          "Message CID": "bafy2bzaceawvoc3qhyzf7bgczh66xoflu5bd4ifk6vronokgw24b2kh45onke"
+        }
+      ]
+    }
+  ]
+}
