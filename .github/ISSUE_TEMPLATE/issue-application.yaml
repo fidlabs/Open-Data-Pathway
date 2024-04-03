@@ -1,4 +1,4 @@
-name: Large Dataset Datacap Application v1.1
+name: Large Dataset Datacap Application v1.2
 description: Clients should use this application form to request a DataCap allocation via a LDN for a dataset
 title: "[DataCap Application] <Organization> - <Project Name>"
 body:
@@ -347,37 +347,19 @@ body:
 - type: input
   attributes:
     label: Total amount of DataCap being requested 
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: Unit for total amount of DataCap being requested 
-    options:
-      - GiB
-      - TiB
-      - PiB
+    description: Must be a number + unit (e.g 100TiB, 600.46GiB, 1.5PiB)
   validations:
     required: true
 - type: input
   attributes:
     label: Expected size of single dataset (one copy)
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: Unit for expected size of single dataset
-    options:
-      - GiB
-      - TiB
-      - PiB
+    description: Must be a number + unit (e.g 100TiB, 600.46GiB, 1.5PiB)
   validations:
     required: true
 - type: dropdown
   attributes:
     label: Number of replicas to store
     options:
-      - 2
-      - 3
       - 4
       - 5
       - 6
@@ -390,16 +372,7 @@ body:
 - type: input
   attributes:
     label: Weekly allocation of DataCap requested
-    description: This amount is usually between 1 TiB and 1000 TiB
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: Unit for weekly allocation of DataCap requested
-    options:
-      - GiB
-      - TiB
-      - PiB
+    description: This amount is usually between 1 TiB and 1000 TiB. Must be a number + unit (e.g 100TiB, 600.46GiB, 1.5PiB)
   validations:
     required: true
 - type: input
@@ -412,6 +385,7 @@ body:
   attributes:
     label: Data Type of Application
     options:    
+      - Slingshot
       - Public, Open Dataset (Research/Non-Profit)
       - Public, Open Commercial/Enterprise
       - Private Commercial/Enterprise
