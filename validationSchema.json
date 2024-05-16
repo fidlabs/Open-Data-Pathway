@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "Version": { "type": "number" },
+    "Version": { "type": "string" },
     "ID": { "type": "string" },
     "Issue Number": { "type": "string" },
     "Client": {
@@ -35,7 +35,6 @@
         "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": { "type": "string" }
       },
       "required": [
-        "Project Id",
         "Brief history of your project and organization",
         "Is this project associated with other projects/ecosystem stakeholders?",
         "Describe the data being stored onto Filecoin",
