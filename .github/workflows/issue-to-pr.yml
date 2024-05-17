@@ -9,7 +9,7 @@ jobs:
   convert-issue-to-pr:
     runs-on: ubuntu-latest
     env:
-      BACKEND_URL: https://fp-core-prod.dp04sa0tdc6pk.us-east-1.cs.amazonlightsail.com
+      BACKEND_URL: https://api.allocator.tech
     steps:
       - name: Check out code
         uses: actions/checkout@v2
