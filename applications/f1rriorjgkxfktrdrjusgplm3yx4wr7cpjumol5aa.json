@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1rriorjgkxfktrdrjusgplm3yx4wr7cpjumol5aa",
+  "Issue Number": "28",
+  "Client": {
+    "Name": "w3s and the users of our tools",
+    "Region": "United States",
+    "Industry": "Web3 / Crypto",
+    "Website": "https://web3.storage/",
+    "Social Media": "https://twitter.com/web3storage",
+    "Social Media Type": "Twitter",
+    "Role": "Data onramp entity that provides data onboarding services to multiple clients"
+  },
+  "Project": {
+    "Brief history of your project and organization": "DAG House - now w3s - was founded in 2021 as a team inside Protocol Labs to develop tools to make it easy for developers and end users to host content addressed data and store the data on Filecoin. Since then our two flagship products, NFT.Storage (Internet Archive of NFTs) and Web3.Storage (developer storage platform) are used by many prominent projects and companies in Web3 and outside of it. NFT.Storage has recently spun out into its own corporate entity.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "User uploads that meet or adhere to web3.storage's Terms of Service (https://web3.storage/docs/terms/).",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "This platform serves all different kinds of media, including images, files, and videos. Some examples:\r\nhttps://ipfs.io/ipfs/bafybeid5jpdqzlb4tqsd6peoa7qstoxat3ovsg62wutyp4gnzqbqsggfsq\r\nhttps://ipfs.io/ipfs/bafybeihity6bx24npzvvkzopjbat25ekefjwmnshe7rvldy72dxngzf644\r\nhttps://ipfs.io/ipfs/bafybeicvcevx3ktiqjsfwnjguu4lnzejlhgb35brayuod5xdtn7demfdhe",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "web3.storage's Filecoin deals are brokered through Spade, which handles SP selection.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2 PiB - the current pace of DataCap usage is 130 TiB/2 week",
+    "Single Size Dataset": "600 TiB and growing",
+    "Replicas": 10,
+    "Weekly Allocation": "250 TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-05-28 20:56:45.343124167 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1rriorjgkxfktrdrjusgplm3yx4wr7cpjumol5aa",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
