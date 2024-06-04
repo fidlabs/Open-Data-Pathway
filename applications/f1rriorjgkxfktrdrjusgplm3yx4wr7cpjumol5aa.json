@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1rriorjgkxfktrdrjusgplm3yx4wr7cpjumol5aa",
+  "Issue Number": "28",
+  "Client": {
+    "Name": "w3s and the users of our tools",
+    "Region": "United States",
+    "Industry": "Web3 / Crypto",
+    "Website": "https://web3.storage/",
+    "Social Media": "https://twitter.com/web3storage",
+    "Social Media Type": "Twitter",
+    "Role": "Data onramp entity that provides data onboarding services to multiple clients"
+  },
+  "Project": {
+    "Brief history of your project and organization": "DAG House - now w3s - was founded in 2021 as a team inside Protocol Labs to develop tools to make it easy for developers and end users to host content addressed data and store the data on Filecoin. Since then our two flagship products, NFT.Storage (Internet Archive of NFTs) and Web3.Storage (developer storage platform) are used by many prominent projects and companies in Web3 and outside of it. NFT.Storage has recently spun out into its own corporate entity.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "User uploads that meet or adhere to web3.storage's Terms of Service (https://web3.storage/docs/terms/).",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "This platform serves all different kinds of media, including images, files, and videos. Some examples:\r\nhttps://ipfs.io/ipfs/bafybeid5jpdqzlb4tqsd6peoa7qstoxat3ovsg62wutyp4gnzqbqsggfsq\r\nhttps://ipfs.io/ipfs/bafybeihity6bx24npzvvkzopjbat25ekefjwmnshe7rvldy72dxngzf644\r\nhttps://ipfs.io/ipfs/bafybeicvcevx3ktiqjsfwnjguu4lnzejlhgb35brayuod5xdtn7demfdhe",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "web3.storage's Filecoin deals are brokered through Spade, which handles SP selection.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2 PiB",
+    "Single Size Dataset": "600 TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "250 TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-05-29 11:49:21.198548049 UTC",
+    "Validated By": "kevzak",
+    "Active": true,
+    "Updated At": "2024-06-04 19:03:07.592107924 UTC",
+    "Active Request ID": "7ca6bce9-e522-44ea-a95f-9c2d274d679e",
+    "On Chain Address": "f1rriorjgkxfktrdrjusgplm3yx4wr7cpjumol5aa",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "7ca6bce9-e522-44ea-a95f-9c2d274d679e",
+      "Request Type": "First",
+      "Created At": "2024-05-29 11:49:21.198555241 UTC",
+      "Updated At": "2024-05-29 11:49:21.198556473 UTC",
+      "Active": false,
+      "Allocation Amount": "100TiB",
+      "Signers": [
+        {
+          "Github Username": "kevzak",
+          "Signing Address": "f1v24knjbqv5p6qrmfjj5xmlaoddzqnon2oxkzkyq",
+          "Created At": "2024-06-04 19:03:06.795000000 UTC",
+          "Message CID": "bafy2bzacebfwtzxqk44nybueds57dazkxama6oe7ttzrkevkiqfu3trssgqyi"
+        }
+      ]
+    }
+  ]
+}
