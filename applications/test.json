@@ -6,8 +6,8 @@
     "Name": "1",
     "Region": "Afghanistan",
     "Industry": "Life Science / Healthcare",
-    "Website": "1",
-    "Social Media": "1",
+    "Website": "test@te.st",
+    "Social Media": "@test",
     "Social Media Type": "Slack",
     "Role": "Dataset Owner"
   },
@@ -30,8 +30,8 @@
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
     "Total Requested Amount": "100TiB",
-    "Single Size Dataset": "100TiB",
-    "Replicas": 4,
+    "Single Size Dataset": "10TiB",
+    "Replicas": 10,
     "Weekly Allocation": "100TiB"
   },
   "Lifecycle": {
