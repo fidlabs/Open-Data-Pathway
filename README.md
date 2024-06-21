@@ -28,6 +28,12 @@ Client ID Check (KYC)
 - If they decline the check, they will be significantly limited in the maximum amount of DataCap they can request unless they are able to provide other forms of client identification.
 - With our KYC check design, users are asked to validate their ID and livelihood via a link on filplus.storage and their submitted information is then encrypted and stored in a decentralized manner across the third party provider, Togggle.io, servers. This information is never shared with the allocator team, nor in public in this GitHub repo. 
 
+Client Business Check (KYB)
+
+If a client is applying as a dataset owner for a commerical dataset, all dataset owner businesses must complete a know your business, KYB, check to confirm the business exists, is legit, and someone from the data owner team (business) has approved onboarding of the dataset. We currently offer two options for KYB check:
+We offer a third party KYB service partnership with Synaps.io (cost of $100), that will review business and data owner documentation. Link to site: https://efilplus.synaps.me/
+Or a client can request a virtual meeting with the client(lead SP), data owner and member of the allocator team to review the dataset, confirm ownership (proof of employment, employer signoff, sharing the business license) and validate storage of the data by the client/applicant is approved and a contract with the SP(s) is in place. If requested by a client, we will utilize various non-disclosure agreements to collect required information on clients and data-owners while maintaining their privacy.
+
 Storage Provider (SP) Usage Check
 - Clients of this pathway will have access to an SP Marketplace tool (link soon) and clients are free to work with any SPs from the vetted list. 
 - Clients are also free to select their own SPs. However, if a client does not intend to use SPs from the vetted SP marketplace, or a vetted Protocol Labs network tool (example: SPADE), then they will be required to provide additional proof of business (KYB) information on the SPs they will use to onboard data, in order to get additional allocations approved. Examples of info include: Business license, proof of datacenter address
