@@ -35,11 +35,11 @@
     "Weekly Allocation": ""
   },
   "Lifecycle": {
-    "State": "Submitted",
+    "State": "KYCRequested",
     "Validated At": "",
     "Validated By": "",
     "Active": true,
-    "Updated At": "2024-06-26 12:36:50.424270956 UTC",
+    "Updated At": "2024-06-27 13:29:51.008106887 UTC",
     "Active Request ID": "",
     "On Chain Address": "f1ouxkkeacppvlyx2rjsrx4tuwr7udix6uu47gjiy",
     "Multisig Address": "false",
