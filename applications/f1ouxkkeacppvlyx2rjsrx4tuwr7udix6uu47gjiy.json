@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1ouxkkeacppvlyx2rjsrx4tuwr7udix6uu47gjiy",
+  "Issue Number": "43",
+  "Client": {
+    "Name": "Common Crawl",
+    "Region": "Not-for-Profit",
+    "Industry": "",
+    "Website": "https://commoncrawl.org",
+    "Social Media": "https://x.com/commoncrawl",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Project: This project is organized by the CommonCrawl open source organization to regularly crawl network data and save it in the AWS open data set. And study how to clean it into AI training data. They have stored data from 2008 onwards, which is an order of magnitude larger.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "",
+    "Describe the data being stored onto Filecoin": "",
+    "Where was the data currently stored in this dataset sourced from": "",
+    "How do you plan to prepare the dataset": "I will fully communicate with the storage providers, including downloading the data to my local hard disk for offline transactions. If bandwidth resources are sufficient due to long distances, the storage provider will download it from AWS, using including but not limited to boost.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://data.commoncrawl.org/crawl-data/CC-NEWS/2016/09/warc.paths.gz\nhttps://data.commoncrawl.org/crawl-data/CC-MAIN-2024-18/cc-index-table.paths.gz\nhttps://data.commoncrawl.org/crawl-data/CC-MAIN-2024-18/cc-index.paths.gz\nhttps://data.commoncrawl.org/crawl-data/CC-MAIN-2024-18/non200responses.paths.gz",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "Confirm",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "",
+    "In which geographies do you plan on making storage deals": "",
+    "How will you be distributing your data to storage providers": "",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "100PiB",
+    "Single Size Dataset": "10PiB",
+    "Replicas": 10,
+    "Weekly Allocation": ""
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-07-02 11:59:25.032622490 UTC",
+    "Validated By": "kevzak",
+    "Active": true,
+    "Updated At": "2024-07-02 12:00:11.422282094 UTC",
+    "Active Request ID": "a6d2b261-47c9-43a2-a0ca-b2093762eba6",
+    "On Chain Address": "f1ouxkkeacppvlyx2rjsrx4tuwr7udix6uu47gjiy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "a6d2b261-47c9-43a2-a0ca-b2093762eba6",
+      "Request Type": "First",
+      "Created At": "2024-07-02 11:59:25.032630216 UTC",
+      "Updated At": "2024-07-02 11:59:25.032631693 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "kevzak",
+          "Signing Address": "f1v24knjbqv5p6qrmfjj5xmlaoddzqnon2oxkzkyq",
+          "Created At": "2024-07-02 12:00:09.709000000 UTC",
+          "Message CID": "bafy2bzaceb5u3b7wbueon42qynvvbt6fbq4vrfimwp6vp346txtrmc4ckdcck"
+        }
+      ]
+    }
+  ]
+}
