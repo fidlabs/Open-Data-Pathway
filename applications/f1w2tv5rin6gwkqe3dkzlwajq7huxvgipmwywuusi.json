@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1w2tv5rin6gwkqe3dkzlwajq7huxvgipmwywuusi",
+  "Issue Number": "41",
+  "Client": {
+    "Name": "VshareCloud",
+    "Region": "IT & Technology Services",
+    "Industry": "",
+    "Website": "https://vshare.cloud",
+    "Social Media": "https://t.me/Experia_dx",
+    "Social Media Type": "Other",
+    "Role": "Storage provider filling out application on behalf of the data owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "",
+    "Is this project associated with other projects/ecosystem stakeholders?": "",
+    "Describe the data being stored onto Filecoin": "",
+    "Where was the data currently stored in this dataset sourced from": "",
+    "How do you plan to prepare the dataset": "For private content (such as customer data), we will use a method similar to the one found at https://github.com/VshareCloud-Project/Filecoin-Storage-Tool/ , where we encrypt and package the data using openssl and zstd before splitting it into volumes. For open data sets, we will directly package and split them into volumes (although most compression algorithms have a general effect on AI model weights and data sets). After the data set is split, we will use Boost for CommP calculations, converting it into .car files. After initiating an offline deal, we will use our IPFS-based distribution network for transmission, and the data will be delivered to the Storage Provider (SP) to download from the IPFS network and import into the nodes Boostd, further importing the data into sectors and completing the deal.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://gateway.ipns.tech/ipfs/QmfC5KT8UP9Avc8MHxVoT9j7CFTZDZ4AqctY2ouNhztke6\nhttps://gateway.ipns.tech/ipfs/QmZ51Vb9aCgUZPXva71be9hD8FuWnd8Ks4qg7AmGtdFPEK\nhttps://gateway.ipns.tech/ipfs/QmeMa2yRpaxZzX8qZ7knqgsY22wz7o7MSkEaRA5PcJ2F13",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "Confirm",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "",
+    "In which geographies do you plan on making storage deals": "",
+    "How will you be distributing your data to storage providers": "",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Not sure for now",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "32GiB",
+    "Replicas": 4,
+    "Weekly Allocation": ""
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-07-10 09:57:42.788431266 UTC",
+    "Validated By": "kevzak",
+    "Active": true,
+    "Updated At": "2024-07-10 09:58:19.167126668 UTC",
+    "Active Request ID": "1f954742-b4c6-40e3-bfa3-94d17bee55b2",
+    "On Chain Address": "f1w2tv5rin6gwkqe3dkzlwajq7huxvgipmwywuusi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "1f954742-b4c6-40e3-bfa3-94d17bee55b2",
+      "Request Type": "First",
+      "Created At": "2024-07-10 09:57:42.788439689 UTC",
+      "Updated At": "2024-07-10 09:57:42.788441062 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "kevzak",
+          "Signing Address": "f1v24knjbqv5p6qrmfjj5xmlaoddzqnon2oxkzkyq",
+          "Created At": "2024-07-10 09:58:18.042000000 UTC",
+          "Message CID": "bafy2bzacecwuw2an4b2zlmgbe7xlkt25k2tn5hjwbew6pwjhuxh5ztwfhfo5q"
+        }
+      ]
+    }
+  ]
+}
