@@ -17,7 +17,7 @@
     "Describe the data being stored onto Filecoin": "",
     "Where was the data currently stored in this dataset sourced from": "",
     "How do you plan to prepare the dataset": "I will fully communicate with the storage providers, including downloading the data to my local hard disk for offline transactions. If bandwidth resources are sufficient due to long distances, the storage provider will download it from AWS, using including but not limited to boost.",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://data.commoncrawl.org/crawl-data/CC-NEWS/2016/09/warc.paths.gz\nhttps://data.commoncrawl.org/crawl-data/CC-MAIN-2024-18/cc-index-table.paths.gz\nhttps://data.commoncrawl.org/crawl-data/CC-MAIN-2024-18/cc-index.paths.gz\nhttps://data.commoncrawl.org/crawl-data/CC-MAIN-2024-18/non200responses.paths.gz",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://data.commoncrawl.org/crawl-data/CC-NEWS/2016/09/warc.paths.gz\r\nhttps://data.commoncrawl.org/crawl-data/CC-MAIN-2024-18/cc-index-table.paths.gz\r\nhttps://data.commoncrawl.org/crawl-data/CC-MAIN-2024-18/cc-index.paths.gz\r\nhttps://data.commoncrawl.org/crawl-data/CC-MAIN-2024-18/non200responses.paths.gz",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "Confirm",
     "What is the expected retrieval frequency for this data": "",
     "For how long do you plan to keep this dataset stored on Filecoin": "",
@@ -43,7 +43,7 @@
     "Active Request ID": "a6d2b261-47c9-43a2-a0ca-b2093762eba6",
     "On Chain Address": "f1ouxkkeacppvlyx2rjsrx4tuwr7udix6uu47gjiy",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
