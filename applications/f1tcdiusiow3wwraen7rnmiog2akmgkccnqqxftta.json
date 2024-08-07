@@ -32,7 +32,7 @@
     "Total Requested Amount": "5PiB",
     "Single Size Dataset": "700TiB",
     "Replicas": 7,
-    "Weekly Allocation": ""
+    "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
     "State": "Submitted",
