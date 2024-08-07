@@ -12,12 +12,12 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Brief history of your project and organization": "Projec:OpenDataLab, established by the Shanghai AI Lab's large model database team, is the chosen platform for Chinese Large Model Corpus Data Alliance's open data services. It offers comprehensive AI data support to developers, mitigating data processing risks and fostering AI research and applications\nAbout me: I have joined the Filecoin ecosystem since 2019, and have been active in the community since the second half of 2020, and have contributed to filecoin Greater China by providing resource information reports, resource docking, etc.",
+    "Brief history of your project and organization": "Projec:OpenDataLab, established by the Shanghai AI Lab's large model database team, is the chosen platform for Chinese Large Model Corpus Data Alliance's open data services. It offers comprehensive AI data support to developers, mitigating data processing risks and fostering AI research and applications\r\nAbout me: I have joined the Filecoin ecosystem since 2019, and have been active in the community since the second half of 2020, and have contributed to filecoin Greater China by providing resource information reports, resource docking, etc.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "",
     "Where was the data currently stored in this dataset sourced from": "Other",
     "How do you plan to prepare the dataset": "I will fully communicate with the storage providers, including downloading the data to my local hard disk for offline transactions. If bandwidth resources are sufficient due to long distances, the storage provider will download it from AWS, using including but not limited to boost",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://opendatalab.org.cn/OpenDataLab/CityScapes/tree/main/raw\nhttps://opendatalab.org.cn/AI4Chem/ChemData700K/tree/main\nhttps://opendatalab.org.cn/OpenXDLab/RenderMe-360/tree/main/raw",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://opendatalab.org.cn/OpenDataLab/CityScapes/tree/main/raw\r\nhttps://opendatalab.org.cn/AI4Chem/ChemData700K/tree/main\r\nhttps://opendatalab.org.cn/OpenXDLab/RenderMe-360/tree/main/raw",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "Confirm",
     "What is the expected retrieval frequency for this data": "",
     "For how long do you plan to keep this dataset stored on Filecoin": "",
@@ -32,7 +32,7 @@
     "Total Requested Amount": "5PiB",
     "Single Size Dataset": "700TiB",
     "Replicas": 7,
-    "Weekly Allocation": ""
+    "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
     "State": "Submitted",
