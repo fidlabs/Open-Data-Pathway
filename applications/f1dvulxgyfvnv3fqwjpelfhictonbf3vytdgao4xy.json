@@ -35,7 +35,7 @@
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2024-07-01 16:16:20.024468390 UTC",
     "Validated By": "kevzak",
     "Active": true,
