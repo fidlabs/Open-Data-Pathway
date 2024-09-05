@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1nppxhqeyeafhac6xrqbxnqz3rzdye252r2l4iba",
+  "Issue Number": "47",
+  "Client": {
+    "Name": "DataFortress-Health-WHO-GHO24",
+    "Region": "Switzerland",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.who.int/",
+    "Social Media": "https://www.who.int/",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "TechToolbox is a technology services company that specializes in providing comprehensive solutions to our clients. We have a deep understanding of FILECOIN and excel at utilizing various tools to meet our clients' needs.\r\n\r\nOur team consists of technical experts with extensive experience in the field. We recognize the significance of technology in modern business and are committed to delivering innovative and efficient solutions to our clients.\r\n\r\nIn the realm of FILECOIN, we are expert partners. We comprehend the working principles, potential, and application scenarios of FILECOIN, and we possess the expertise to optimize your FILECOIN experience using a wide range of tools and technologies.\r\n\r\nOur services encompass a broad range of areas, including technology consulting, system integration, software development, and data analysis. Whether you are a startup or a well-established enterprise, we can provide customized solutions tailored to your specific requirements.\r\n\r\nWe prioritize our clients' success and work closely with them to ensure that our solutions help them achieve their business objectives. We are not just technology providers; we are collaborative partners dedicated to delivering excellence in technical services.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Providing better health information around the world is a core goal of the World Health Organization, which publicly releases their global health data through the Global Health Observatory (GHO). The GHO is a portal for understanding and analyzing the health situation and major issues.\r\nThe various datasets are organized by themes such as mortality, health systems, communicable and noncommunicable diseases, medicines and vaccines, health risks, etc. WHO health statistics are the best source of global health information and are also used by the Centers for Disease Control and Prevention in the United States.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.who.int/gho/maternal_health/reproductive_health/en/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02956383   Hong Kong\r\nf03148950    Hong Kong\r\nf03035686   Shenzhen, Guangdong, CN\r\nf03068013   Hong Kong\r\nf03136267   Hong Kong\r\nf03144077   Hong Kong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "2PiB",
+    "Replicas": 5,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "KYCRequested",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-07-10 09:52:43.344997734 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1nppxhqeyeafhac6xrqbxnqz3rzdye252r2l4iba",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
