@@ -61,7 +61,7 @@ The allocation schedule for trusted users is:
 - 3rd allocation        30%
 - 4th allocation        50%
 
-After successful onboarding of a dataset as a trusted GitHub ID, users then become eligible to apply for 5PiB+ as needed to meet their demand.
+After successful onboarding of 5PiBs of a dataset as a trusted GitHub ID, users then become eligible to apply for 5PiB+ as needed to meet their demand.
 
 Subsequent allocation schedule:
 - When clients use up > 75% of the prior DataCap allocation, a request for additional DataCap in the form of the next tranche is automatically kicked off (via the subsequent allocation bot). The allocator team will set an SLA (Service Level Agreement) to keep up with allocation review and comment on bot messages within 3 days.
