@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1twvalxpcgzaw3pnca4hfvzeyl542xd43piz2w3y",
+  "Issue Number": "76",
+  "Client": {
+    "Name": "顶思",
+    "Region": "China",
+    "Industry": "Education & Training",
+    "Website": "http://www.topschools.cn/index",
+    "Social Media": "顶思",
+    "Social Media Type": "WeChat",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "TopSchools was founded on August 28, 2016.  As the resource aggregation platform of K12 international Education, TopSchools is committed to supporting the sustainable development of the international school market through community communication, data research, teacher training and talent recruitment.  Topschools is a close partner of international schools and international education institutions.  Provides industry with information on international education policies, operations, investments, schools, and people.  Organized various online and offline activities, cooperated with various examination bureaus, global top universities, research institutions, embassies and consulates, and provided services and support for more than 600 schools across the country;  We are linked to thousands of quality school service providers around the world to provide a variety of solutions for schools.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Our data is very large, mainly stored all kinds of courses of teaching videos, materials, documents.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We plan to cooperate and negotiate with professionals to ensure the safety and reliability of data, and achieve short-term or long-term effective storage to ensure the integrity of data",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://pan.baidu.com/s/13wL5KTvY-JjgpezbqxJVIA?pwd=hgxv \r\nhttps://pan.baidu.com/s/1uWAOYMjv5OP_BA9k-QH1eQ?pwd=w97f\r\nhttps://pan.baidu.com/s/1VSUjDCzAdZLdK5ESLC1fBA?pwd=qd56",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
+    "In which geographies do you plan on making storage deals": "Greater China, South America, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, IPFS, Shipping hard drives, Lotus built-in data transfer, Venus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03143698，HongKong\r\nf03143705，Shanghai\r\nf0870354，Singapore\r\nf01989372，HongKong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "1PiB",
+    "Single Size Dataset": "512TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-09-13 16:36:24.602290781 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1twvalxpcgzaw3pnca4hfvzeyl542xd43piz2w3y",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
