@@ -1,6 +1,6 @@
 # Open-Data-Pathway
 
-Contact: kevin@fidl.tech or @KZ on Filecoin Slack
+Contact: mplocic@fidl.tech or @Marta on Filecoin Slack
 
 Background:
 - The details of this allocator pathway were initially described in an application to the Fil+ Governance Team in December 2023: [LINK](https://github.com/filecoin-project/notary-governance/issues/996). 
@@ -24,7 +24,7 @@ New User Check
   - If yes to either, applicants will have a maximum DataCap allowance for their first application (see allocation breakdown below)
 
 Client ID Check (KYC)
-- All applicants will be asked if they are willing to complete a free know your customer (KYC) check to confirm themself as a human user associated with a speicific GitHub ID.
+- All applicants will be asked if they are willing to complete a free Know Your Customer (KYC) check to confirm themself as a human user associated with a speicific GitHub ID.
 - If they decline the check, they will be significantly limited in the maximum amount of DataCap they can request unless they are able to provide other forms of client identification.
 - With our KYC check design, users are asked to validate their ID and livelihood via a link on filplus.storage and their submitted information is then encrypted and stored in a decentralized manner across the third party provider, Togggle.io, servers. This information is never shared with the allocator team, nor in public in this GitHub repo. 
 
@@ -35,8 +35,7 @@ We offer a third party KYB service partnership with Synaps.io (cost of $100), th
 Or a client can request a virtual meeting with the client(lead SP), data owner and member of the allocator team to review the dataset, confirm ownership (proof of employment, employer signoff, sharing the business license) and validate storage of the data by the client/applicant is approved and a contract with the SP(s) is in place. If requested by a client, we will utilize various non-disclosure agreements to collect required information on clients and data-owners while maintaining their privacy.
 
 Storage Provider (SP) Usage Check
-- Clients of this pathway will have access to an SP Marketplace tool (link soon) and clients are free to work with any SPs from the vetted list. 
-- Clients are also free to select their own SPs. However, if a client does not intend to use SPs from the vetted SP marketplace, or a vetted Protocol Labs network tool (example: SPADE), then they will be required to provide additional proof of business (KYB) information on the SPs they will use to onboard data, in order to get additional allocations approved. Examples of info include: Business license, proof of datacenter address
+Clients are free to select their own SPs. However, if a client does not intend to use SPs from the vetted SP marketplace, or a vetted Protocol Labs network tool (example: SPADE), then they will be required to provide additional proof of business (KYB) information on the SPs they will use to onboard data, in order to get additional allocations approved. Examples of info include: Business license, proof of datacenter address
 
 Allocation Tranche Schedule to clients:
 - As mentioned above, each application will have the GitHub ID assessed to confirm if they are a new GitHub ID (less than 2 months old) or first time user to the allocator. If so they will follow first allocation schedule below:
