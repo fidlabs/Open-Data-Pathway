@@ -47,6 +47,22 @@
   },
   "Allocation Requests": [
     {
+      "ID": "349b75af-f622-4e63-9d80-fdbc527619bc",
+      "Request Type": "First",
+      "Created At": "2024-08-08 14:47:35.994455933 UTC",
+      "Updated At": "2024-08-08 14:47:35.994457638 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "kevzak",
+          "Signing Address": "f1v24knjbqv5p6qrmfjj5xmlaoddzqnon2oxkzkyq",
+          "Created At": "2024-08-08 14:49:14.676000000 UTC",
+          "Message CID": "bafy2bzacedc5slc73vnr3hybqnavakxma6koj2a27ant2sgq3ci3cwsordaa4"
+        }
+      ]
+    },
+    {
       "ID": "198b2111-d04f-4501-b192-6250cab04bce",
       "Request Type": "First",
       "Created At": "2024-10-01 09:59:38.685243180 UTC",
