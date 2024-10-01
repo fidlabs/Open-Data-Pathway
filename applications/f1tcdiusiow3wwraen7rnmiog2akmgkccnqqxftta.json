@@ -64,7 +64,7 @@
     },
     {
       "ID": "198b2111-d04f-4501-b192-6250cab04bce",
-      "Request Type": "First",
+      "Request Type": "Refill",
       "Created At": "2024-10-01 09:59:38.685243180 UTC",
       "Updated At": "2024-10-01 09:59:38.685244093 UTC",
       "Active": false,
