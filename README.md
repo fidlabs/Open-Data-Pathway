@@ -26,8 +26,8 @@ New User Check
 Client ID Check (KYC)
 - All applicants will be asked if they are willing to complete a free Know Your Customer (KYC) check to confirm themself as a human user associated with a speicific GitHub ID.
 - If they decline the check, they will be significantly limited in the maximum amount of DataCap they can request unless they are able to provide other forms of client identification.
-- With our KYC check design, users are asked to validate their ID and livelihood via a link on filplus.storage and their submitted information is then encrypted and stored in a decentralized manner across the third party provider, Togggle.io, servers. This information is never shared with the allocator team, nor in public in this GitHub repo. 
-
+- With our KYC check design, users are asked to validate their ID via gitcoin passport, which confirms it and then provides us with a numerical analysis result. None of the personally identifiable information is collected by gitcoin passport, or anyone associated with FIDL. To pass the KYC process, a user must have a score of at least 20.
+  
 Client Business Check (KYB)
 
 If a client is applying as a dataset owner for a commerical dataset, all dataset owner businesses must complete a know your business, KYB, check to confirm the business exists, is legit, and someone from the data owner team (business) has approved onboarding of the dataset. We currently offer two options for KYB check:
