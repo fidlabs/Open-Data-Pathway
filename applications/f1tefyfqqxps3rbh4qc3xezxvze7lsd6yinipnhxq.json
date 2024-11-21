@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1tefyfqqxps3rbh4qc3xezxvze7lsd6yinipnhxq",
+  "Issue Number": "74",
+  "Client": {
+    "Name": "Bond",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "http://www.gdysd.cn/",
+    "Social Media": "hpjnba@gmail.com",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Cloud Era Cloud Monitoring Project:\r\nCurrently, we are a professional digital upgrade service provider and operator for the retail industry. Our focus is on providing technological upgrades and solutions to address pain points in China's 5.4 trillion yuan physical retail market, offering integrated marketing, transaction, management, and revenue enhancement solutions for convenience stores and branded chain enterprises.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Machine learning models and training data, image and video data, sensor data, customer behavior data, etc.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.gdysd.cn/\r\nhttp://www.gdysd.cn/h-col-103.html\r\nhttp://www.gdysd.cn/h-col-104.html\r\nhttp://www.gdysd.cn/h-col-105.html",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03178077 US\r\nf03178144 SG\r\nf03178150 JP\r\nf03178158 US\r\nf03151449 CN\r\nf03151456 CN\r\nf03179555 SG\r\nf03179570 SG\r\nf03178077 JP\r\nf03178144 JP",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "6PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 6,
+    "Weekly Allocation": "500TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "2024-09-10 13:10:39.064935359 UTC",
+    "Validated By": "kevzak",
+    "Active": true,
+    "Updated At": "2024-09-10 13:10:39.064939873 UTC",
+    "Active Request ID": "4a495807-277b-48ce-872f-0e2077bbee50",
+    "On Chain Address": "f1tefyfqqxps3rbh4qc3xezxvze7lsd6yinipnhxq",
+    "Multisig Address": "true",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
