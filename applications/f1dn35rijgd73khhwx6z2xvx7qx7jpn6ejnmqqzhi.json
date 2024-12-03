@@ -35,11 +35,11 @@
     "Weekly Allocation": "50TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2024-12-03 10:18:27.314182011 UTC",
+    "State": "Granted",
+    "Validated At": "2024-12-03 10:20:09.433925929 UTC",
     "Validated By": "martplo",
     "Active": true,
-    "Updated At": "2024-12-03 10:18:27.314186437 UTC",
+    "Updated At": "2024-12-03 10:20:09.433922001 UTC",
     "Active Request ID": "10b5b545-19f9-4b33-85bb-1ce162d64326",
     "On Chain Address": "f1dn35rijgd73khhwx6z2xvx7qx7jpn6ejnmqqzhi",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-12-03 10:18:27.314188273 UTC",
       "Updated At": "2024-12-03 10:18:27.314189341 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "50TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2024-12-03 10:20:06.126000000 UTC",
+          "Message CID": "bafy2bzacedmoyshyjh7j74xo3sj3dr35p4epbojtji3u4aytimwafu5wag3lu"
+        }
+      ]
     }
   ]
 }
