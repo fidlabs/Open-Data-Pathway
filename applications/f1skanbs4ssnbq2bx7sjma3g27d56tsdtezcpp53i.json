@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1skanbs4ssnbq2bx7sjma3g27d56tsdtezcpp53i",
+  "Issue Number": "111",
+  "Client": {
+    "Name": "HDS",
+    "Region": "China",
+    "Industry": "Environment",
+    "Website": "https://filecoinproject.slack.com/team/U07JW39MLG0",
+    "Social Media": "2406240979@qq.com",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Project:  The HDS (Human Development & Sustainability) initiative focuses on advancing environmental awareness and research through open data sharing. As part of our commitment to global sustainability, we manage large-scale datasets related to climate change, including global temperature records, greenhouse gas emissions, and ecological monitoring data. Our organization is dedicated to ensuring that this data is accessible for scientific research, public awareness, and policy-making. Leveraging modern decentralized storage solutions, we aim to preserve and distribute critical environmental data for generations to come.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The dataset consists of publicly available, high-value environmental data, primarily sourced from NASA's open-source big data warehouse. It includes global climate records such as temperature and precipitation patterns, carbon dioxide and methane emissions, deforestation rates, and biodiversity data. These datasets have been processed into a standardized format and segmented for efficient storage and retrieval on the Filecoin network. The data is vital for ongoing research in climate change mitigation, ecological preservation, and renewable energy planning.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We operate our own storage infrastructure to manage and process the dataset. The data is sourced from NASA's open-access big data repository. After downloading, we utilize the open-source tool `go-graphsplit` developed by the filedrive-team to segment the data into pieces of a specified size.  Additionally, we employ droplet 、boost、venus、lotus and other tools to facilitate data preparation and ensure compatibility with the Filecoin network.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD16A2.061/MOD16A2.A2024329.h32v11.061.2024344221241/MOD16A2.A2024329.h32v11.061.2024344221241.hdf\r\nhttps://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD16A2.061/MOD16A2.A2024329.h30v09.061.2024344221611/MOD16A2.A2024329.h30v09.061.2024344221611.hdf\r\nhttps://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD16A2.061/MOD16A2.A2024329.h06v11.061.2024344221026/MOD16A2.A2024329.h06v11.061.2024344221026.hdf",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03179570 SP\r\nf03179572 US\r\nf03214937 US\r\nf03229932 KR\r\nf03229933 KR\r\nf03231117 PH\r\nf03231121 PH",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-12-11 07:22:13.789357279 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1skanbs4ssnbq2bx7sjma3g27d56tsdtezcpp53i",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
