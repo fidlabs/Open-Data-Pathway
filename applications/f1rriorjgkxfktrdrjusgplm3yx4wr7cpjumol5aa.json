@@ -36,11 +36,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2024-10-07 15:08:06.346870514 UTC",
+    "Validated At": "2024-12-31 08:00:37.254042886 UTC",
     "Validated By": "martplo",
     "Active": true,
-    "Updated At": "2024-10-07 15:09:49.167396423 UTC",
-    "Active Request ID": "0eac043a-2baf-46c8-a67e-7f290b1de732",
+    "Updated At": "2024-12-31 08:00:37.254039127 UTC",
+    "Active Request ID": "409085c1-a488-47c6-8043-27d73d2ccd9b",
     "On Chain Address": "f1rriorjgkxfktrdrjusgplm3yx4wr7cpjumol5aa",
     "Multisig Address": "false",
     "edited": false
@@ -107,6 +107,22 @@
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Created At": "2024-10-07 15:09:45.962000000 UTC",
           "Message CID": "bafy2bzaceae3bb3b4btabkyuqjpmmwaf376dgv5vvyiclmnbrwww32ief3doe"
+        }
+      ]
+    },
+    {
+      "ID": "409085c1-a488-47c6-8043-27d73d2ccd9b",
+      "Request Type": "Refill",
+      "Created At": "2024-12-31 07:58:59.048223443 UTC",
+      "Updated At": "2024-12-31 07:58:59.048224188 UTC",
+      "Active": false,
+      "Allocation Amount": "1PiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2024-12-31 08:00:34.178000000 UTC",
+          "Message CID": "bafy2bzaced7oiulxg2lpa4taavazmeqt7ipbgvr24zrd7ndo4fxbynevyirxa"
         }
       ]
     }
