@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f3s5yr2fbks4dt2i4y62f67tiebmmbwrw6gdbrfztocze5kxgpuevd3awpfbwqrb2tpmleppqj62jzlkpk2uqa",
+  "Issue Number": "121",
+  "Client": {
+    "Name": "sdcloud",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.sdcloud.top/",
+    "Social Media": "https://www.sdcloud.top/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "sdcloud is a distributed storage system developed based on blockchain and distributed storage technology. It perfectly solves core issues such as \"protecting data privacy\" and \"reducing storage costs\", and provides a reliable data storage solution for privacy data security and ownership issues in the big data era.The personal end-to-end login method is more convenient, providing private storage space and public data sharing platform for personal accounts. Work files, life records, videos, audios, photos and other documents can be stored in the cloud anytime and anywhere, and the download speed is increased by more than 60%. With data slicing storage, private key support and content addressing technology, there is no need to worry about the hidden danger of private files being peeped.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Shangding Cloud is a distributed storage system developed based on blockchain and distributed storage technology. It perfectly solves the core problems of \"protecting data privacy\" and \"reducing storage costs\", and provides a reliable data storage solution for privacy data security and ownership issues in the big data era. A large number of log files are generated during the storage process, and we need to store them on filecoin.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.sdcloud.top/down",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, North America",
+    "How will you be distributing your data to storage providers": "Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f0866468 US\nf01016847 US\nf0811822 US\nf0832944 CN\nf0861595 CN\nf0866680  CN\nf01019009  US\nf01912298 US",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB+",
+    "Single Size Dataset": "2.2PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "400TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-01-17 06:22:50.910017112 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f3s5yr2fbks4dt2i4y62f67tiebmmbwrw6gdbrfztocze5kxgpuevd3awpfbwqrb2tpmleppqj62jzlkpk2uqa",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
