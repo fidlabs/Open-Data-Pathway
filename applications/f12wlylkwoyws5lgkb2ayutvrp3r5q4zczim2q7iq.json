@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
+  "Issue Number": "123",
+  "Client": {
+    "Name": "Geospatial Data Cloud",
+    "Region": "Life Science / Healthcare",
+    "Industry": "",
+    "Website": "https://www.gscloud.cn",
+    "Social Media": "https://www.gscloud.cn/sources/index?pid=263&rootid=1&ptitle=LANDSAT%E7%B3%BB%E5%88%97%E6%95%B0%E6%8D%AE",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Geospatial Data Cloud (GSCloud), with the service website at http://www.gscloud.cn, was founded by the Computer Network Information Center of the Chinese Academy of Sciences in 2008. It is an internationally advanced and domestically influential geospatial big data platform. The platform closely focuses on the urgent needs of researchers in geospatial data search, acquisition, storage, analysis and visualization. It uses new-generation information technologies such as cloud computing and big data to independently develop a reliable large-scale geospatial data real-time analysis engine, and realizes efficient management of billions of metadata and PB-level entity data analysis services. The platform continuously innovates service models and successfully realizes real-time online analysis services for massive data, online crowdsourcing innovation services, and online collaborative annotation services. After more than a decade of development, GSCloud has established a complete geospatial data resource reserve, bringing together dozens of international remote sensing satellite data and domestic resources, high-resolution and other series of land observation satellite data, and producing geospatial data products with independent intellectual property rights. GSCloud has accumulated 800TB of physical data, 520,000 registered users, 13 million total visits, 260 million total page visits, 1.1PB of online data services, 100,000 online tasks, more than 10,000 scientific research projects, and more than 12,000 Chinese and English literature outputs. It has greatly promoted the open sharing of data in my country, saved a lot of scientific research costs, and generated significant social benefits. The platform's core technology \"Key Technologies and Applications for Large-Scale Geospatial Data Cloud Services\" won the second prize of Beijing Science and Technology Progress in 2016, and the platform's core product \"GeoBox\" won the \"Leading Scientific and Technological Achievements New Product Award\" at the 2021 Big Data Expo.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.gscloud.cn/sources/accessdata/2c79f880a0304edebac6c48592d8e088?pid=263\nhttps://www.gscloud.cn/sources/accessdata/411?pid=263\nhttps://www.gscloud.cn/sources/accessdata/3d621b0fdc3642a294d42910a136853e?pid=263\nhttps://www.gscloud.cn/sources/accessdata/6903d803e77b4cbb814ec23b27defe53?pid=263\nhttps://www.gscloud.cn/sources/accessdata/241?pid=263\nhttps://www.gscloud.cn/sources/index?pid=263&rootid=1&ptitle=LANDSAT%E7%B3%BB%E5%88%97%E6%95%B0%E6%8D%AE",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "Confirm",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "",
+    "In which geographies do you plan on making storage deals": "",
+    "How will you be distributing your data to storage providers": "",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f0101020  CN\nf0101021  CN\nf0861594  US\nf01164500 US\nf0112781 CN\nf0154795 CN\nf01973164 US\nf0104380 CN\nf0154137 US",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "600TiB",
+    "Replicas": 9,
+    "Weekly Allocation": "500TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-01-21 05:58:09.229659793 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
