@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
+  "Issue Number": "123",
+  "Client": {
+    "Name": "NASA",
+    "Region": "Life Science / Healthcare",
+    "Industry": "",
+    "Website": "https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products",
+    "Social Media": "https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products",
+    "Social Media Type": "",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Brief introduction about the dataset: Landsat Collection 2 science products are internationally-recognized as Committee on Earth Observation Satellites (CEOS) Analysis Ready Data (ARD). This certification recognizes satellite data that have been processed to a minimum set of requirements and organized into a structure that allows for immediate analysis with minimum user effort and interoperability both through time and with other datasets. Landsat data have become an invaluable resource for understanding and monitoring the Earth and its natural resources. The long temporal record, global coverage, free and open access, and versatile applications make Landsat data an ideal tool for learning and advancing remote sensing skills and studying global and regional trends and patterns. There are numerous educational resources for learners of all ages and experience levels.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/usgs-landsat/index.html\nAWS CLI Access aws s3 ls --request-payer requester s3://usgs-landsat/collection02/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "Confirm",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "",
+    "In which geographies do you plan on making storage deals": "",
+    "How will you be distributing your data to storage providers": "",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f0101020  CN\nf0101021  CN\nf0861594  US\nf01164500 US\nf0112781 CN\nf0154795 CN\nf01973164 US\nf0104380 CN\nf0154137 US",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "600TiB",
+    "Replicas": 9,
+    "Weekly Allocation": "500TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-01-21 05:58:09.229659793 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
