@@ -3,7 +3,7 @@
   "ID": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
   "Issue Number": "123",
   "Client": {
-    "Name": "NASA",
+    "Name": "NASA USGS",
     "Region": "Life Science / Healthcare",
     "Industry": "",
     "Website": "https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products",
@@ -12,7 +12,7 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Brief history of your project and organization": "Brief introduction about the dataset: Landsat Collection 2 science products are internationally-recognized as Committee on Earth Observation Satellites (CEOS) Analysis Ready Data (ARD). This certification recognizes satellite data that have been processed to a minimum set of requirements and organized into a structure that allows for immediate analysis with minimum user effort and interoperability both through time and with other datasets. Landsat data have become an invaluable resource for understanding and monitoring the Earth and its natural resources. The long temporal record, global coverage, free and open access, and versatile applications make Landsat data an ideal tool for learning and advancing remote sensing skills and studying global and regional trends and patterns. There are numerous educational resources for learners of all ages and experience levels.",
+    "Brief history of your project and organization": "Share a brief history of your project and organization: sdcloud is a distributed storage system developed based on blockchain and distributed storage technology. It perfectly solves core issues such as \"protecting data privacy\" and \"reducing storage costs\", and provides a reliable data storage solution for privacy data security and ownership issues in the big data era.The personal end-to-end login method is more convenient, providing private storage space and public data sharing platform for personal accounts. Work files, life records, videos, audios, photos and other documents can be stored in the cloud anytime and anywhere, and the download speed is increased by more than 60%. With data slicing storage, private key support and content addressing technology, there is no need to worry about the hidden danger of private files being peeped.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
