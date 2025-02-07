@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
   "Issue Number": "123",
+  "Client Contract Address": "f410foc6psy3k7a2fb37tb2tslxj2hvzuj5ymcku7xia",
   "Client": {
     "Name": "NASA USGS",
     "Region": "Life Science / Healthcare",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-02-07 07:59:02.765505982 UTC",
+    "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-02-06 02:33:17.617246916 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-02-07 07:59:02.765510801 UTC",
+    "Active Request ID": "434eb87c-ca29-4a95-9e54-75a93e59673b",
     "On Chain Address": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "434eb87c-ca29-4a95-9e54-75a93e59673b",
+      "Request Type": "First",
+      "Created At": "2025-02-07 07:59:02.765512468 UTC",
+      "Updated At": "2025-02-07 07:59:02.765513545 UTC",
+      "Active": true,
+      "Allocation Amount": "256TiB",
+      "Signers": []
+    }
+  ]
 }
