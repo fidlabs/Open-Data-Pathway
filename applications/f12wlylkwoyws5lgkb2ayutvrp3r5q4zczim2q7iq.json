@@ -1,0 +1,110 @@
+{
+  "Version": "1.3",
+  "ID": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
+  "Issue Number": "123",
+  "Client Contract Address": "f410foc6psy3k7a2fb37tb2tslxj2hvzuj5ymcku7xia",
+  "Client": {
+    "Name": "NASA USGS",
+    "Region": "Life Science / Healthcare",
+    "Industry": "",
+    "Website": "https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products",
+    "Social Media": "https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products",
+    "Social Media Type": "",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Share a brief history of your project and organization: sdcloud is a distributed storage system developed based on blockchain and distributed storage technology. It perfectly solves core issues such as \"protecting data privacy\" and \"reducing storage costs\", and provides a reliable data storage solution for privacy data security and ownership issues in the big data era.The personal end-to-end login method is more convenient, providing private storage space and public data sharing platform for personal accounts. Work files, life records, videos, audios, photos and other documents can be stored in the cloud anytime and anywhere, and the download speed is increased by more than 60%. With data slicing storage, private key support and content addressing technology, there is no need to worry about the hidden danger of private files being peeped.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/usgs-landsat/index.html\nAWS CLI Access aws s3 ls --request-payer requester s3://usgs-landsat/collection02/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "Confirm",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "",
+    "In which geographies do you plan on making storage deals": "",
+    "How will you be distributing your data to storage providers": "",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f0101020  CN\nf0101021  CN\nf0861594  US\nf01164500 US\nf0112781 CN\nf0154795 CN\nf01973164 US\nf0104380 CN\nf0154137 US",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "600TiB",
+    "Replicas": 9,
+    "Weekly Allocation": "500TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-02-07 08:14:23.307358468 UTC",
+    "Validated By": "dampud",
+    "Active": true,
+    "Updated At": "2025-02-07 08:14:23.307354903 UTC",
+    "Active Request ID": "434eb87c-ca29-4a95-9e54-75a93e59673b",
+    "On Chain Address": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "434eb87c-ca29-4a95-9e54-75a93e59673b",
+      "Request Type": "First",
+      "Created At": "2025-02-07 07:59:02.765512468 UTC",
+      "Updated At": "2025-02-07 07:59:02.765513545 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-02-07 08:14:19.940000000 UTC",
+          "Message CID": "bafy2bzaceasqpxyl53q7raaz37guccld5zhfzcapki56pybtheomu42l272rq",
+          "Increase allowance CID": "bafy2bzaceduhtataxxflbshgzqygdp4fdqp67d7j7horxchm2i6ha5oeair7s"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "e50f5080-8fa3-4d39-b713-23dd4316b9c8",
+      "Created At": "2025-02-07 08:08:06.865370743 UTC",
+      "Updated At": "2025-02-07 08:08:06.865373704 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        101020,
+        101021,
+        861594,
+        1164500,
+        112781,
+        154795,
+        1973164,
+        104380,
+        154137
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Set Max Deviation CID": "bafy2bzacebcex7wuixy6r24pltanaw5jfduprfc5b6sjsznjvyp7yanrurwki",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceaaml756xgw5kvlnacqnakzsk472tsbidutr4c4w5ptmbozehrocq": [
+              "101020",
+              "101021",
+              "861594",
+              "1164500",
+              "112781",
+              "154795",
+              "1973164",
+              "104380"
+            ],
+            "bafy2bzacedbt3kyevaqmngyqucskhgvd5quh6bghvgigotsnko3uhv6kjwra2": [
+              "154137"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
