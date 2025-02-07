@@ -36,11 +36,11 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-02-07 08:08:06.865379106 UTC",
+    "State": "Granted",
+    "Validated At": "2025-02-07 08:14:23.307358468 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-02-07 08:08:06.865378300 UTC",
+    "Updated At": "2025-02-07 08:14:23.307354903 UTC",
     "Active Request ID": "434eb87c-ca29-4a95-9e54-75a93e59673b",
     "On Chain Address": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
     "Multisig Address": "false",
@@ -52,9 +52,17 @@
       "Request Type": "First",
       "Created At": "2025-02-07 07:59:02.765512468 UTC",
       "Updated At": "2025-02-07 07:59:02.765513545 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "256TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-02-07 08:14:19.940000000 UTC",
+          "Message CID": "bafy2bzaceasqpxyl53q7raaz37guccld5zhfzcapki56pybtheomu42l272rq",
+          "Increase allowance CID": "bafy2bzaceduhtataxxflbshgzqygdp4fdqp67d7j7horxchm2i6ha5oeair7s"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
@@ -81,9 +89,6 @@
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Set Max Deviation CID": "bafy2bzacebcex7wuixy6r24pltanaw5jfduprfc5b6sjsznjvyp7yanrurwki",
           "Add Allowed Storage Providers CID": {
-            "bafy2bzacedbt3kyevaqmngyqucskhgvd5quh6bghvgigotsnko3uhv6kjwra2": [
-              "154137"
-            ],
             "bafy2bzaceaaml756xgw5kvlnacqnakzsk472tsbidutr4c4w5ptmbozehrocq": [
               "101020",
               "101021",
@@ -93,6 +98,9 @@
               "154795",
               "1973164",
               "104380"
+            ],
+            "bafy2bzacedbt3kyevaqmngyqucskhgvd5quh6bghvgigotsnko3uhv6kjwra2": [
+              "154137"
             ]
           }
         }
