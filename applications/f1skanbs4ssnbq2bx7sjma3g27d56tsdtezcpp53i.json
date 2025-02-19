@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1skanbs4ssnbq2bx7sjma3g27d56tsdtezcpp53i",
   "Issue Number": "111",
+  "Client Contract Address": "f410foc6psy3k7a2fb37tb2tslxj2hvzuj5ymcku7xia",
   "Client": {
     "Name": "HDS",
     "Region": "China",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-02-19 10:09:37.680111577 UTC",
+    "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-02-11 02:03:38.362052735 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-02-19 10:09:37.680116034 UTC",
+    "Active Request ID": "018166fb-4aff-4f3e-b062-aae292bfa846",
     "On Chain Address": "f1skanbs4ssnbq2bx7sjma3g27d56tsdtezcpp53i",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "018166fb-4aff-4f3e-b062-aae292bfa846",
+      "Request Type": "First",
+      "Created At": "2025-02-19 10:09:37.680117775 UTC",
+      "Updated At": "2025-02-19 10:09:37.680118724 UTC",
+      "Active": true,
+      "Allocation Amount": "155 TiB",
+      "Signers": []
+    }
+  ]
 }
