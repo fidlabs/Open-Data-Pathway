@@ -35,11 +35,11 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-03-07 08:30:34.723694623 UTC",
+    "State": "Granted",
+    "Validated At": "2025-03-07 08:37:40.170734917 UTC",
     "Validated By": "martapiekarska",
     "Active": true,
-    "Updated At": "2025-03-07 08:30:34.723698835 UTC",
+    "Updated At": "2025-03-07 08:37:40.170730434 UTC",
     "Active Request ID": "c1b7c7aa-8d2e-4faa-bd3d-6e1083ae0317",
     "On Chain Address": "f1qwzlpo6xzf67zpuhyohtilagejy4rlqobxgk33y",
     "Multisig Address": "false",
@@ -115,9 +115,16 @@
       "Request Type": "Refill",
       "Created At": "2025-03-07 08:30:34.723706381 UTC",
       "Updated At": "2025-03-07 08:30:34.723707226 UTC",
-      "Active": true,
-      "Allocation Amount": "1PiB",
-      "Signers": []
+      "Active": false,
+      "Allocation Amount": "1 PiB",
+      "Signers": [
+        {
+          "Github Username": "martapiekarska",
+          "Signing Address": "f1k4zrriujtwdlea64k7saa3l7jkbatzebfzinj7i",
+          "Created At": "2025-03-07 08:37:37.252000000 UTC",
+          "Message CID": "bafy2bzacednntaeg5efcrlaa6e2vjyd6caxgq4ijbuhlobaigqrrlsnhurldi"
+        }
+      ]
     }
   ]
 }
