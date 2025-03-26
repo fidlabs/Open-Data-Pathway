@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "ID": "f1rkcxcz7ikycmuh6jpq4pdwai34q74sbnxijsafi",
+  "Issue Number": "12",
+  "Client": {
+    "Name": "DemonstratioOfIncorrectApplication",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "http://invalid.tld",
+    "Social Media": "na",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "1",
+    "Brief history of your project and organization": "Example",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Example",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "No Data",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
+    "In which geographies do you plan on making storage deals": "Antarctica",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "TBD",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "128GiB",
+    "Single Size Dataset": "32GiB",
+    "Replicas": 4,
+    "Weekly Allocation": "32GibPiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-03-29 16:09:49.344394215 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1rkcxcz7ikycmuh6jpq4pdwai34q74sbnxijsafi",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": []
+}
