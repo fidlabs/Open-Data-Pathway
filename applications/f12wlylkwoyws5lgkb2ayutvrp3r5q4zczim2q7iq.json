@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-04-25 09:50:35.584867212 UTC",
+    "Validated At": "2025-04-30 10:23:42.218097473 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-04-25 09:50:35.584863799 UTC",
-    "Active Request ID": "38bc7270-ac39-48ed-acfb-7836ffa751fd",
+    "Updated At": "2025-04-30 10:23:42.218096717 UTC",
+    "Active Request ID": "ca1701ac-e4a1-493a-a881-d1ae608f5c2b",
     "On Chain Address": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
     "Multisig Address": "false",
     "edited": false
@@ -106,6 +106,9 @@
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Set Max Deviation CID": "bafy2bzacebcex7wuixy6r24pltanaw5jfduprfc5b6sjsznjvyp7yanrurwki",
           "Add Allowed Storage Providers CID": {
+            "bafy2bzacedbt3kyevaqmngyqucskhgvd5quh6bghvgigotsnko3uhv6kjwra2": [
+              "154137"
+            ],
             "bafy2bzaceaaml756xgw5kvlnacqnakzsk472tsbidutr4c4w5ptmbozehrocq": [
               "101020",
               "101021",
@@ -115,9 +118,6 @@
               "154795",
               "1973164",
               "104380"
-            ],
-            "bafy2bzacedbt3kyevaqmngyqucskhgvd5quh6bghvgigotsnko3uhv6kjwra2": [
-              "154137"
             ]
           }
         }
@@ -145,6 +145,43 @@
           "Github Username": "dampud",
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Set Max Deviation CID": "bafy2bzacedlfdnpypuvrnuntxf6hs6uvdm25euklhzdd2l2hvrbahqiluru5o"
+        }
+      ]
+    },
+    {
+      "ID": "8a2c7dd8-870a-4300-bee1-6f6a5b31f831",
+      "Created At": "2025-04-30 10:23:42.218088470 UTC",
+      "Updated At": "2025-04-30 10:23:42.218091664 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        101020,
+        101021,
+        861594,
+        1164500,
+        112781,
+        154795,
+        1973164,
+        104380,
+        154137,
+        866468,
+        1912298,
+        811822,
+        832944,
+        861595
+      ],
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceb3lqosdi6lo6odbmiafi6spqe3jumljdbsyp4sbc2hscesqq7gk6": [
+              "866468",
+              "1912298",
+              "811822",
+              "832944",
+              "861595"
+            ]
+          }
         }
       ]
     }
