@@ -24,7 +24,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "",
     "In which geographies do you plan on making storage deals": "",
     "How will you be distributing your data to storage providers": "",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f0101020  CN\nf0101021  CN\nf0861594  US\nf01164500 US\nf0112781 CN\nf0154795 CN\nf01973164 US\nf0104380 CN\nf0154137 US",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f0101020\nf0101021\nf0861594\nf01164500\nf0112781\nf0154795\nf01973164\nf0104380\nf0154137\nf0866468\nf01912298\nf0811822\nf0832944\nf0861595",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
   },
   "Datacap": {
