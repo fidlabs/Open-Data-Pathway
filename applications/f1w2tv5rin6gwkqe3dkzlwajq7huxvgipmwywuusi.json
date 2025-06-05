@@ -35,12 +35,12 @@
     "Weekly Allocation": "200TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "Declined",
     "Validated At": "2024-07-10 09:57:42.788431266 UTC",
     "Validated By": "kevzak",
-    "Active": true,
-    "Updated At": "2024-07-10 09:58:19.167126668 UTC",
-    "Active Request ID": "1f954742-b4c6-40e3-bfa3-94d17bee55b2",
+    "Active": false,
+    "Updated At": "2025-06-05 11:24:22.993823142 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1w2tv5rin6gwkqe3dkzlwajq7huxvgipmwywuusi",
     "Multisig Address": "false",
     "edited": false
