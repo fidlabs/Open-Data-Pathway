@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-06-25 08:19:39.608377784 UTC",
+    "State": "Granted",
+    "Validated At": "2025-06-25 08:26:38.387767233 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-06-25 08:19:39.608376874 UTC",
+    "Updated At": "2025-06-25 08:26:38.387762967 UTC",
     "Active Request ID": "8e4389bc-d9c6-4173-b018-029a8f76352a",
     "On Chain Address": "f03416756",
     "Multisig Address": "false",
@@ -52,9 +52,17 @@
       "Request Type": "First",
       "Created At": "2025-06-25 08:16:00.137704981 UTC",
       "Updated At": "2025-06-25 08:16:00.137705818 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "450359962737049 B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-06-25 08:26:35.937000000 UTC",
+          "Message CID": "bafy2bzacedszheegmdst5vxbboz4pctttylpxv7uvc63lc7mexea32zogohni",
+          "Increase allowance CID": "bafy2bzacebdqbw5n7m6esggyv34qx3gxsurhgoqwudxqmmlt2dkgy5ekjegsy"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
