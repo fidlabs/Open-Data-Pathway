@@ -1,0 +1,98 @@
+{
+  "Version": "1.3",
+  "ID": "f03416756",
+  "Issue Number": "161",
+  "Client Contract Address": "f410foc6psy3k7a2fb37tb2tslxj2hvzuj5ymcku7xia",
+  "Client": {
+    "Name": "University of Utah",
+    "Region": "United States",
+    "Industry": "Education & Training",
+    "Website": "https://www.utah.edu/",
+    "Social Media": "Unkown",
+    "Social Media Type": "Other",
+    "Role": "Data onramp entity that provides data onboarding services to multiple clients"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Project History: This project is a recovery effort to salvage a critical opportunity on the verge of being lost due to a partner's bankruptcy. It supports Utah in providing NASA research data to researchers for further study and analysis.\n\nOrganization: FTH is a team of participated in the ESPA program and currently hosting & managing nodes and infrastructure for other ESPA participants/SPs . Partnering with entities like the University of Utah, we handle large-scale, open-access data to grow the Filecoin ecosystem, ensuring secure, distributed storage for scientific and research communities.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "The data consists of 4 petabytes of NASA Ames Research Center climate data, stored on the Filecoin network. It includes datasets for the IEEE Visual Analytics Science and Technology (VIS) 2026 Challenge, enabling advanced analysis and visualization for climate prediction, power grid resilience, and environmental impact. The data is publicly accessible via AWS S3 API for scientific, academic, and societal use.",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "* Hot Storage - stored into MinIO & Ceph S3 object storage.\n* Preparing the CAR files using tools such as Gographsplit & internal FTH tooling.\n* Retrievals & restore from Filecoin network to the hot store using FTH products.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://utah/nasa/dyamond/\ns3://utah/nasa/dri_climate_data/\ns3://utah/nasa/climate_utah/somospie/\ns3://utah/nasa/climate_utah/arco/\n--- Nathan D and John S needed.. need MinIo public address ---",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03416756\nf01857342\nf01992431\nf02026128",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8 PiB",
+    "Single Size Dataset": "4 PiB",
+    "Replicas": 2,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-06-25 08:26:38.387767233 UTC",
+    "Validated By": "dampud",
+    "Active": true,
+    "Updated At": "2025-06-25 08:26:38.387762967 UTC",
+    "Active Request ID": "8e4389bc-d9c6-4173-b018-029a8f76352a",
+    "On Chain Address": "f03416756",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "8e4389bc-d9c6-4173-b018-029a8f76352a",
+      "Request Type": "First",
+      "Created At": "2025-06-25 08:16:00.137704981 UTC",
+      "Updated At": "2025-06-25 08:16:00.137705818 UTC",
+      "Active": false,
+      "Allocation Amount": "450359962737049 B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-06-25 08:26:35.937000000 UTC",
+          "Message CID": "bafy2bzacedszheegmdst5vxbboz4pctttylpxv7uvc63lc7mexea32zogohni",
+          "Increase allowance CID": "bafy2bzacebdqbw5n7m6esggyv34qx3gxsurhgoqwudxqmmlt2dkgy5ekjegsy"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "817e9f48-1227-4a89-a262-bef8321e647f",
+      "Created At": "2025-06-25 08:19:39.608368948 UTC",
+      "Updated At": "2025-06-25 08:19:39.608372650 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3416756,
+        1857342,
+        1992431,
+        2026128
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Set Max Deviation CID": "bafy2bzacedreiysogwbltemtjs2sutetsq5rbp5cal5vhizyyhpfdqi7ga7ys",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceboydun3mvtulfvhk7nu6b3tpcejogxuurzjiwp5dy3lub5ci36bw": [
+              "3416756",
+              "1857342",
+              "1992431",
+              "2026128"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
