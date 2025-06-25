@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f03416756",
   "Issue Number": "161",
+  "Client Contract Address": "f410foc6psy3k7a2fb37tb2tslxj2hvzuj5ymcku7xia",
   "Client": {
     "Name": "University of Utah",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-06-25 08:16:00.137698606 UTC",
+    "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-06-20 05:09:17.310896418 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-06-25 08:16:00.137703023 UTC",
+    "Active Request ID": "8e4389bc-d9c6-4173-b018-029a8f76352a",
     "On Chain Address": "f03416756",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "8e4389bc-d9c6-4173-b018-029a8f76352a",
+      "Request Type": "First",
+      "Created At": "2025-06-25 08:16:00.137704981 UTC",
+      "Updated At": "2025-06-25 08:16:00.137705818 UTC",
+      "Active": true,
+      "Allocation Amount": "450359962737049 B",
+      "Signers": []
+    }
+  ]
 }
