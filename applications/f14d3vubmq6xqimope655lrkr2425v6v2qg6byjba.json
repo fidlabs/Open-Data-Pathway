@@ -12,7 +12,6 @@
     "Role": "Dataset Owner"
   },
   "Project": {
-    "Project Id": "1",
     "Brief history of your project and organization": "test",
     "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
     "Describe the data being stored onto Filecoin": "test",
@@ -36,24 +35,15 @@
     "Weekly Allocation": "1TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2024-01-29 14:59:29.935240509 UTC",
-    "Validated By": "clriesco",
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
     "Active": true,
-    "Updated At": "2024-01-29 14:59:29.935244059 UTC",
-    "Active Request ID": "de58f95d-2913-4614-97da-3ef002997664",
+    "Updated At": "2025-07-07 13:48:08.166763648 UTC",
+    "Active Request ID": "",
     "On Chain Address": "f14d3vubmq6xqimope655lrkr2425v6v2qg6byjba",
-    "Multisig Address": "false"
+    "Multisig Address": "false",
+    "edited": null
   },
-  "Allocation Requests": [
-    {
-      "ID": "de58f95d-2913-4614-97da-3ef002997664",
-      "Request Type": "First",
-      "Created At": "2024-01-29 14:59:29.935245230 UTC",
-      "Updated At": "2024-01-29 14:59:29.935246061 UTC",
-      "Active": true,
-      "Allocation Amount": "1TiB",
-      "Signers": []
-    }
-  ]
+  "Allocation Requests": []
 }
