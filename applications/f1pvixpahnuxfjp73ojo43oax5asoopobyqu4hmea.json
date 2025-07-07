@@ -12,7 +12,6 @@
     "Role": "Dataset Owner"
   },
   "Project": {
-    "Project Id": "1",
     "Brief history of your project and organization": "Currently in the world of NFT, many methods for obtaining information about blockchain are complex and difficult for users to use, making it difficult for the public to obtain information.\r\nFurthermore, various blockchain project data is in a fragmented state currently, making it even more difficult to obtain or organize information. Web3Eye is a search engine that aggregates historical NFT transaction records, and provides multi-chain aggregation search for NFT assets.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Due to so many NFTs are stored in IPFS, or central server, sometimes when we view the exist NFT, we get error for the missed data. we think of it's valuable to make snapshot for those data. So in web3eye.io's engine, we parse the NFT history, generate snapshot for them, then store to Filecoin. When user search the data, and we know its original data is missed, then we'll recover from Filecoin for user, and let user know its original source is lost.",
@@ -36,14 +35,15 @@
     "Weekly Allocation": "50TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "Declined",
     "Validated At": "2024-03-19 19:38:47.187575426 UTC",
     "Validated By": "kevzak",
-    "Active": true,
-    "Updated At": "2024-03-29 11:53:47.536457640 UTC",
-    "Active Request ID": "a40d9d68-71fd-4f4d-b05b-f61a68436893",
+    "Active": false,
+    "Updated At": "2025-07-07 13:49:33.375350609 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1pvixpahnuxfjp73ojo43oax5asoopobyqu4hmea",
-    "Multisig Address": "false"
+    "Multisig Address": "false",
+    "edited": null
   },
   "Allocation Requests": [
     {
