@@ -36,11 +36,11 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-07-28 10:44:56.421816359 UTC",
+    "State": "Granted",
+    "Validated At": "2025-07-28 10:47:34.923634085 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-07-28 10:44:56.421819797 UTC",
+    "Updated At": "2025-07-28 10:47:34.923630269 UTC",
     "Active Request ID": "62629c20-cf55-4c12-83de-71c1b612b2eb",
     "On Chain Address": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
     "Multisig Address": "false",
@@ -103,9 +103,17 @@
       "Request Type": "Refill",
       "Created At": "2025-07-28 10:44:56.421824068 UTC",
       "Updated At": "2025-07-28 10:44:56.421824944 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1125899906842624B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-07-28 10:47:32.428000000 UTC",
+          "Message CID": "bafy2bzaceag6ufvkz4fjc2qezcejofqzpe7zq26z43crdainhta7cmdzqbiao",
+          "Increase allowance CID": "bafy2bzaced5paxrdlacxcdud54vtxlt4hw3nys6eqdgmgc67bbyktqggx75d6"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
@@ -132,9 +140,6 @@
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Set Max Deviation CID": "bafy2bzacebcex7wuixy6r24pltanaw5jfduprfc5b6sjsznjvyp7yanrurwki",
           "Add Allowed Storage Providers CID": {
-            "bafy2bzacedbt3kyevaqmngyqucskhgvd5quh6bghvgigotsnko3uhv6kjwra2": [
-              "154137"
-            ],
             "bafy2bzaceaaml756xgw5kvlnacqnakzsk472tsbidutr4c4w5ptmbozehrocq": [
               "101020",
               "101021",
@@ -144,6 +149,9 @@
               "154795",
               "1973164",
               "104380"
+            ],
+            "bafy2bzacedbt3kyevaqmngyqucskhgvd5quh6bghvgigotsnko3uhv6kjwra2": [
+              "154137"
             ]
           }
         }
