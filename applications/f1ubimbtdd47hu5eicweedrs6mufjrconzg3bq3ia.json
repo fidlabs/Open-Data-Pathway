@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1ubimbtdd47hu5eicweedrs6mufjrconzg3bq3ia",
+  "Issue Number": "167",
+  "Client": {
+    "Name": "",
+    "Region": "United States",
+    "Industry": "",
+    "Website": "fil.org",
+    "Social Media": "@decentramike",
+    "Social Media Type": "Twitter",
+    "Role": "Dataset Owner (Client)"
+  },
+  "Project": {
+    "Brief history of your project and organization": "",
+    "Is this project associated with other projects/ecosystem stakeholders?": "",
+    "Describe the data being stored onto Filecoin": "",
+    "Where was the data currently stored in this dataset sourced from": "",
+    "How do you plan to prepare the dataset": "Unknown, where could I find this info?",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
+    "In which geographies do you plan on making storage deals": "North America",
+    "How will you be distributing your data to storage providers": "IPFS, I don't know yet",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "50TiB",
+    "Single Size Dataset": "25TiB",
+    "Replicas": 2,
+    "Weekly Allocation": "10TiB"
+  },
+  "Lifecycle": {
+    "State": "Declined",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": false,
+    "Updated At": "2025-08-13 08:31:19.199792050 UTC",
+    "Active Request ID": null,
+    "On Chain Address": "f1ubimbtdd47hu5eicweedrs6mufjrconzg3bq3ia",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
