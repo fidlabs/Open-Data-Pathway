@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
+  "Issue Number": "172",
+  "Client": {
+    "Name": "Allen Institute for Neural Dynamics (AIND)",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://allenneuraldynamics.github.io/data.html#aind-open-data",
+    "Social Media": "aindopendata@alleninstitute.org",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Data Access\nThe Allen Institute for Neural Dynamics (AIND) is committed to FAIR, Open, and Reproducible science. We therefore share all of the data we collect publicly with rich metadata as near to the time of collection as possible. We share data at all stages of the data lifecycle, including preliminary data collected during methods development, processed data that we are actively improving, or highly curated data used in a publication.\n\naind-open-data\nIn addition to sharing curated datasets with modality-specific NIH data archives like DANDI and BIL, we are also excited to share all of our data in one public S3 bucket generously hosted by the Registry of Open Data on AWS.\n\nAll data is stored here: s3://aind-open-data",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "SmartSPIM is a high-throughput, three-dimensional, whole-brain imaging technology commonly used in neuroscience and biomedical research.\n\nSPIM stands for Selective Plane Illumination Microscopy, commonly translated into Chinese as \"light sheet microscopy\" or \"surface scanning microscopy.\"\n\nSmartSPIM is a commercial light sheet microscopy imaging platform developed by LifeCanvas Technologies. It enables rapid, non-destructive, three-dimensional imaging of large tissues, such as mouse brains and brain slices.\n\nThis imaging technology is commonly used in cutting-edge biomedical fields such as neuron tracing, brain mapping, and tissue structure analysis.\n\nThe directory s3://aind-open-data/SmartSPIM-*** contains data collected using SmartSPIM technology, such as high-resolution 3D brain tissue images, raw imaging data, processed image data, and associated metadata.\n\nDirectories may be further subdivided by experiment, sample, date, animal ID, and other categories.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We use the AWS CLI to download data from AWS, cut it into appropriate sizes, and package it into CAR files. We then send them to the SPs via HTTP or email. We also use our own DC distributor to distribute DCs to the SPs. This allows us to effectively control the number of CAR files distributed and the proportion of DCs allocated in each round, ensuring fairness.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://aind-open-data/SmartSPIM_000393_2023-01-06_13-35-10_stitched_2023-02-02_22-28-35\ns3://aind-open-data/SmartSPIM_000393_2023-01-06_13-35-10SmartSPIM_000393_2023-01-06_13-35-10\ns3://SmartSPIM_000394_2023-01-05_14-56-34_stitched_2023-02-20_19-47-09\ns3://SmartSPIM_000394_2023-01-05_14-56-34\ns3://SmartSPIM_000397_2024-02-07_10-04-23_stitched_2024-03-06_04-02-49\ns3://SmartSPIM_000397_2024-02-07_10-04-23\n\n\ns3://SmartSPIM_XXXXXXX  7814.3519 TiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany\nf03315260 Germany\nf03367915 United States\nf03542777 Vietnam\nf03607310 Brazil\nf03603117 United States\nf03559187 United States\nf03100006 HongKong\nf03100007 HongKong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "72PiB",
+    "Single Size Dataset": "9PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-08-19 14:45:41.038271340 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
