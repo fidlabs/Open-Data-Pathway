@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1fygrmbpysaod6wlqtgnyovyusxi7zmmimaqgasq",
+  "Issue Number": "133",
+  "Client": {
+    "Name": "GTQ",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://ipcc-data.org/",
+    "Social Media": "jackly753200@outlook.com",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Our organization was founded in 2015 and focuses on artificial intelligence and big data analytics. We are currently working on a scientific research project on climate change that requires the storage of large amounts of meteorological data.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The meteorological data we plan to store includes historical records of global temperature, precipitation, wind speed, etc., which will be used to build and validate climate models.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "During data preparation, we used the go-graphsplit tool recommended in the Droplet documentation to efficiently shard the dataset. This tool has been extensively verified by the Filecoin community and can ensure that data remains efficient and complete during storage and retrieval, while meeting the technical requirements of the Filecoin network.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://ipcc-browser.ipcc-data.org/browser/dataset/5848/0\nhttps://ipcc-browser.ipcc-data.org/browser/dataset/680/0\nhttps://ipcc-browser.ipcc-data.org/browser/dataset/677/0",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Greater China",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03298672 DE\nf03298673 DE\nf03308933 UK\nf03308920 JP\nf03308922 JP",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 5,
+    "Weekly Allocation": "800TiB"
+  },
+  "Lifecycle": {
+    "State": "Declined",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": false,
+    "Updated At": "2025-08-22 11:23:59.762668784 UTC",
+    "Active Request ID": null,
+    "On Chain Address": "f1fygrmbpysaod6wlqtgnyovyusxi7zmmimaqgasq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
