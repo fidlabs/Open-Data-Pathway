@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-06-25 08:26:38.387767233 UTC",
+    "Validated At": "2025-08-22 10:42:34.594429814 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-06-25 08:26:38.387762967 UTC",
-    "Active Request ID": "8e4389bc-d9c6-4173-b018-029a8f76352a",
+    "Updated At": "2025-08-22 10:42:34.594429078 UTC",
+    "Active Request ID": "f3a8b235-0608-4490-8802-e8ee47f892f3",
     "On Chain Address": "f03416756",
     "Multisig Address": "false",
     "edited": false
@@ -61,6 +61,22 @@
           "Created At": "2025-06-25 08:26:35.937000000 UTC",
           "Message CID": "bafy2bzacedszheegmdst5vxbboz4pctttylpxv7uvc63lc7mexea32zogohni",
           "Increase allowance CID": "bafy2bzacebdqbw5n7m6esggyv34qx3gxsurhgoqwudxqmmlt2dkgy5ekjegsy"
+        }
+      ]
+    },
+    {
+      "ID": "f3a8b235-0608-4490-8802-e8ee47f892f3",
+      "Request Type": "Decrease",
+      "Created At": "2025-08-22 10:42:34.594414885 UTC",
+      "Updated At": "2025-08-22 10:42:34.594419727 UTC",
+      "Active": false,
+      "Allocation Amount": "-450359962737049 B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-08-22 10:42:34.594425174 UTC",
+          "Message CID": "bafy2bzaceauigh6gcbjmvhsizpkiyojxszn3b3pg4zccljenhqbx65ed5p7gy"
         }
       ]
     }
