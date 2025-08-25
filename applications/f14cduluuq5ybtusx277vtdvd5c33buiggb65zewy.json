@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f14cduluuq5ybtusx277vtdvd5c33buiggb65zewy",
   "Issue Number": "159",
+  "Client Contract Address": "f410foc6psy3k7a2fb37tb2tslxj2hvzuj5ymcku7xia",
   "Client": {
     "Name": "David Stone",
     "Region": "China",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "10TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-08-25 12:16:10.543616249 UTC",
+    "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-07-08 06:09:22.495068538 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-08-25 12:16:10.543620783 UTC",
+    "Active Request ID": "423c392a-b306-41da-a726-1852b00ba17f",
     "On Chain Address": "f14cduluuq5ybtusx277vtdvd5c33buiggb65zewy",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "423c392a-b306-41da-a726-1852b00ba17f",
+      "Request Type": "First",
+      "Created At": "2025-08-25 12:16:10.543622844 UTC",
+      "Updated At": "2025-08-25 12:16:10.543623786 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
