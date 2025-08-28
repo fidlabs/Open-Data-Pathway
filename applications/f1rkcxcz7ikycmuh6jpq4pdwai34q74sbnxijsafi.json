@@ -1,5 +1,5 @@
 {
-  "Version": 1,
+  "Version": "1.3",
   "ID": "f1rkcxcz7ikycmuh6jpq4pdwai34q74sbnxijsafi",
   "Issue Number": "12",
   "Client": {
@@ -12,7 +12,6 @@
     "Role": "Dataset Owner"
   },
   "Project": {
-    "Project Id": "1",
     "Brief history of your project and organization": "Example",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Example",
@@ -30,10 +29,10 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "128GiB",
-    "Single Size Dataset": "32GiB",
+    "Total Requested Amount": "128 GiB",
+    "Single Size Dataset": "32 GiB",
     "Replicas": 4,
-    "Weekly Allocation": "32GibPiB"
+    "Weekly Allocation": "1"
   },
   "Lifecycle": {
     "State": "Submitted",
@@ -43,7 +42,8 @@
     "Updated At": "2024-03-29 16:09:49.344394215 UTC",
     "Active Request ID": "",
     "On Chain Address": "f1rkcxcz7ikycmuh6jpq4pdwai34q74sbnxijsafi",
-    "Multisig Address": "false"
+    "Multisig Address": "false",
+    "edited": false
   },
   "Allocation Requests": []
 }
