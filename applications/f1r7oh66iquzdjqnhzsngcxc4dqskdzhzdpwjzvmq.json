@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2025-09-01 08:12:02.473449446 UTC",
+    "Validated At": "2025-09-01 08:21:05.181415641 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-09-01 08:12:02.473454293 UTC",
+    "Updated At": "2025-09-01 08:21:05.181413999 UTC",
     "Active Request ID": "f1aea5ac-4fc4-42b9-8d75-2f3ffb3b0f40",
     "On Chain Address": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
     "Multisig Address": "false",
@@ -55,6 +55,48 @@
       "Active": true,
       "Allocation Amount": "140737488355328 B",
       "Signers": []
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "36091cb9-1952-41f1-9cba-01180530e478",
+      "Created At": "2025-09-01 08:21:05.181400480 UTC",
+      "Updated At": "2025-09-01 08:21:05.181405927 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3289271,
+        3315260,
+        3367915,
+        3542777,
+        3607310,
+        3603117,
+        3559187,
+        3100006,
+        3100007
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Set Max Deviation CID": "bafy2bzacecxh7ec3y57bel7afsmegwtoxjac7jlu5pmwmlfluaptsrsnxcace",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacealaebjoqqmahxzxfg2z554crnneaop55vtivhucpy5ylypxlpzam": [
+              "3100007"
+            ],
+            "bafy2bzacec763ycluoamqzqrcyqpbvd346w5utnkmixemsznpt6d5y6fppoes": [
+              "3289271",
+              "3315260",
+              "3367915",
+              "3542777",
+              "3607310",
+              "3603117",
+              "3559187",
+              "3100006"
+            ]
+          }
+        }
+      ]
     }
   ]
 }
