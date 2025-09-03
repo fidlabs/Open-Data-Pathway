@@ -1,0 +1,82 @@
+{
+  "Version": "1.3",
+  "ID": "f1skjgotikvvlx3uzhzltiq2ejmwdmtxt5doa5vpy",
+  "Issue Number": "177",
+  "Client": {
+    "Name": "Internet Archive",
+    "Region": "United States",
+    "Industry": "Not-for-Profit",
+    "Website": "https://archive.org/",
+    "Social Media": "https://bsky.app/profile/archive.org",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Every four years, before and after the U.S. presidential election, a team of libraries and research organizations, including the Internet Archive, work together to preserve material from U.S. government websites during the transition of administrations.\n\nThe EOT Web Archive project is part of the Internet Archive’s daily routine of recording what’s happening on the web. For more than 25 years, the Internet Archive has worked to preserve material from web-based social media platforms, news sources, governments, and elsewhere across the web.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "This broad comprehensive crawl of the .gov domain includes as many federal .gov sites as we could find, plus federal content in other domains (such as .mil, .com, and social media content) and FTP’d datasets.\n\nEach EOT collection houses a wide range of file types preserved in WARC files, including:\n\nHTML files\nImages (JPEG, PNG, GIF)\nPDF documents\nSpreadsheets (CSV, Excel, etc.)\nVideos and other multimedia\nGeoJSON and other specialized formats",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://eotarchive.org/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
+    "In which geographies do you plan on making storage deals": "Europe, North America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02011071 (IA, CA, US)\nf02639429 (Milad, TX, US)\nf03468521 (DCENT, NL, US)",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2264TiB",
+    "Single Size Dataset": "566TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "566TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-07-03 19:15:07.384894042 UTC",
+    "Validated By": "Sankara-Jefferson",
+    "Active": true,
+    "Updated At": "2025-07-03 19:15:07.384889711 UTC",
+    "Active Request ID": "a38898a1-0168-4ec8-a93a-6f9f5add4b34",
+    "On Chain Address": "f1skjgotikvvlx3uzhzltiq2ejmwdmtxt5doa5vpy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "009ea07f-d75a-4b1c-92f1-11518e9051d0",
+      "Request Type": "First",
+      "Created At": "2025-03-13 18:27:39.594755328 UTC",
+      "Updated At": "2025-03-13 18:27:39.594756161 UTC",
+      "Active": false,
+      "Allocation Amount": "500 TiB",
+      "Signers": [
+        {
+          "Github Username": "ianconsolata",
+          "Signing Address": "f1ufoy2xrgqtwbnykgm3a26pbbtahypucqrpfs7uy",
+          "Created At": "2025-03-13 18:30:08.705000000 UTC",
+          "Message CID": "bafy2bzacedqnvawi5znmc5omze2gg5pmmsfnoudromvheez3noszebr5zqbsq"
+        }
+      ]
+    },
+    {
+      "ID": "a38898a1-0168-4ec8-a93a-6f9f5add4b34",
+      "Request Type": "Refill",
+      "Created At": "2025-07-03 19:13:49.065654913 UTC",
+      "Updated At": "2025-07-03 19:13:49.065655754 UTC",
+      "Active": false,
+      "Allocation Amount": "549755813888000B",
+      "Signers": [
+        {
+          "Github Username": "Sankara-Jefferson",
+          "Signing Address": "f13kcetuvgmoebigp2efnpbiynmcpmenrspygwcpi",
+          "Created At": "2025-07-03 19:15:05.645000000 UTC",
+          "Message CID": "bafy2bzacebiyn4dexbukoya7zzo45gj26rq4mhfigzislql7knfnbkg3mglb6"
+        }
+      ]
+    }
+  ]
+}
