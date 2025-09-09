@@ -36,11 +36,11 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-09-09 19:44:21.208977907 UTC",
+    "State": "Granted",
+    "Validated At": "2025-09-09 19:47:12.617598488 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-09-09 19:44:21.208980824 UTC",
+    "Updated At": "2025-09-09 19:47:12.617593436 UTC",
     "Active Request ID": "56fce610-0189-4a8a-81a7-db2452e7d588",
     "On Chain Address": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
     "Multisig Address": "false",
@@ -68,9 +68,18 @@
       "Request Type": "Refill",
       "Created At": "2025-09-09 19:44:21.208984313 UTC",
       "Updated At": "2025-09-09 19:44:21.208985 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "140737488355328B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "112589990684263B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-09-09 19:47:09.923000000 UTC",
+          "Message CID": "bafy2bzaced2gjzqffvmhq7dp54pywtfqdfbw2talu77hlnm3hfcco6azrxo3m",
+          "Increase allowance CID": "bafy2bzacedusjl3vfw4vb7vlijn2wgwzarr6hghajju47jml47v7mxjlt3mgu"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
@@ -97,6 +106,9 @@
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Set Max Deviation CID": "bafy2bzacecxh7ec3y57bel7afsmegwtoxjac7jlu5pmwmlfluaptsrsnxcace",
           "Add Allowed Storage Providers CID": {
+            "bafy2bzacealaebjoqqmahxzxfg2z554crnneaop55vtivhucpy5ylypxlpzam": [
+              "3100007"
+            ],
             "bafy2bzacec763ycluoamqzqrcyqpbvd346w5utnkmixemsznpt6d5y6fppoes": [
               "3289271",
               "3315260",
@@ -106,9 +118,6 @@
               "3603117",
               "3559187",
               "3100006"
-            ],
-            "bafy2bzacealaebjoqqmahxzxfg2z554crnneaop55vtivhucpy5ylypxlpzam": [
-              "3100007"
             ]
           }
         }
