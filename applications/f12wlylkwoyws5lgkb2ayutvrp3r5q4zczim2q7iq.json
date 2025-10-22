@@ -36,11 +36,11 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-10-22 13:49:55.891126669 UTC",
+    "State": "Granted",
+    "Validated At": "2025-10-22 13:53:07.319496639 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-10-22 13:49:55.891131969 UTC",
+    "Updated At": "2025-10-22 13:53:07.319491361 UTC",
     "Active Request ID": "85f91f16-f940-463d-bfbc-01035758e0dc",
     "On Chain Address": "f12wlylkwoyws5lgkb2ayutvrp3r5q4zczim2q7iq",
     "Multisig Address": "false",
@@ -137,9 +137,18 @@
       "Request Type": "Refill",
       "Created At": "2025-10-22 13:49:55.891141638 UTC",
       "Updated At": "2025-10-22 13:49:55.891142740 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1125899906842624B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "1125899906842624B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-10-22 13:53:03.178000000 UTC",
+          "Message CID": "bafy2bzacedl3tig35c5bqkhydzwxycxcoqregdqmcwqztdtvam4gxyhus7wos",
+          "Increase allowance CID": "bafy2bzaceakkbvp2s7yanghvuh62aiwt76qxknyd2ym5eak7k2k3zgfdol7hc"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
@@ -166,9 +175,6 @@
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Set Max Deviation CID": "bafy2bzacebcex7wuixy6r24pltanaw5jfduprfc5b6sjsznjvyp7yanrurwki",
           "Add Allowed Storage Providers CID": {
-            "bafy2bzacedbt3kyevaqmngyqucskhgvd5quh6bghvgigotsnko3uhv6kjwra2": [
-              "154137"
-            ],
             "bafy2bzaceaaml756xgw5kvlnacqnakzsk472tsbidutr4c4w5ptmbozehrocq": [
               "101020",
               "101021",
@@ -178,6 +184,9 @@
               "154795",
               "1973164",
               "104380"
+            ],
+            "bafy2bzacedbt3kyevaqmngyqucskhgvd5quh6bghvgigotsnko3uhv6kjwra2": [
+              "154137"
             ]
           }
         }
