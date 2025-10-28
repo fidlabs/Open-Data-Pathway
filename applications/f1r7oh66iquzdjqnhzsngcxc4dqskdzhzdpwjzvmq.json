@@ -24,7 +24,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany (deprecated)\nf03315260 Germany (deprecated)\nf03367915 United States (deprecated)\nf03542777 Vietnam (deprecated)\nf03607310 Brazil (deprecated)\nf03603117 United States (deprecated)\nf03559187 United States (deprecated)\nf03100006 HongKong (deprecated)\nf03100007 HongKong (deprecated)\n\nf03637821 Germany (NEW)\nf03637813 Brazil (NEW)\nf03649204 Hong Kong (NEW)\nf03649212 Hong Kong (NEW)\nf03649217 Singapore (NEW)\nf03649227 Singapore (NEW)\nf03641984 Brazil (NEW)\nf03641964 United States (NEW)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany (deprecated)\nf03315260 Germany (deprecated)\nf03367915 United States (deprecated)\nf03542777 Vietnam (deprecated)\nf03607310 Brazil (deprecated)\nf03603117 United States (deprecated)\nf03559187 United States (deprecated)\nf03100006 HongKong (deprecated)\nf03100007 HongKong (deprecated)\n\nf03637821 Germany (NEW)\nf03637813 Brazil (NEW)\nf03649204 Hong Kong (NEW)\nf03649212 Hong Kong (NEW)\nf03649217 Singapore (NEW)\nf03649227 Singapore (NEW)",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -44,7 +44,7 @@
     "Active Request ID": "8f920ad1-3ce5-4671-b48b-f44284493bf3",
     "On Chain Address": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
@@ -142,6 +142,9 @@
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Set Max Deviation CID": "bafy2bzacecxh7ec3y57bel7afsmegwtoxjac7jlu5pmwmlfluaptsrsnxcace",
           "Add Allowed Storage Providers CID": {
+            "bafy2bzacealaebjoqqmahxzxfg2z554crnneaop55vtivhucpy5ylypxlpzam": [
+              "3100007"
+            ],
             "bafy2bzacec763ycluoamqzqrcyqpbvd346w5utnkmixemsznpt6d5y6fppoes": [
               "3289271",
               "3315260",
@@ -151,9 +154,6 @@
               "3603117",
               "3559187",
               "3100006"
-            ],
-            "bafy2bzacealaebjoqqmahxzxfg2z554crnneaop55vtivhucpy5ylypxlpzam": [
-              "3100007"
             ]
           }
         }
