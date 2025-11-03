@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-11-03 08:47:39.464104085 UTC",
+    "Validated At": "2025-11-03 08:53:41.118695206 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-11-03 08:47:39.464100745 UTC",
-    "Active Request ID": "4a559869-9f10-4ff6-bbe1-682616377195",
+    "Updated At": "2025-11-03 08:53:41.118693975 UTC",
+    "Active Request ID": "14c3f5d8-69c1-4ca4-be8c-8776923cb65a",
     "On Chain Address": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
     "Multisig Address": "false",
     "edited": false
@@ -172,6 +172,51 @@
               "3603117",
               "3559187",
               "3100006"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "87a176e8-04c6-4aac-879a-de78b6a915ee",
+      "Created At": "2025-11-03 08:53:41.118661387 UTC",
+      "Updated At": "2025-11-03 08:53:41.118667989 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3099008,
+        3673681,
+        3649204,
+        3649212,
+        3649217,
+        3649227
+      ],
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceaz7tmvlnfja5gkkhjatmctnmhg6wa7wy76fb7e7qccpa7nbnmrpa": [
+              "3099008",
+              "3673681",
+              "3649204",
+              "3649212",
+              "3649217",
+              "3649227"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacecmkgnf7loz4nccntdcsno5ho37h5ol22hcl2fgwyeor5lktcxdeg": [
+              "3289271",
+              "3315260",
+              "3367915",
+              "3542777",
+              "3607310",
+              "3603117",
+              "3559187",
+              "3100006"
+            ],
+            "bafy2bzacebggys6q5iaw6jwhedjsokyp3xydgmgiy5gygc6jtbhie2bf3lxhc": [
+              "3100007"
             ]
           }
         }
