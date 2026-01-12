@@ -36,12 +36,12 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2026-01-12 10:14:03.549933335 UTC",
+    "State": "ReadyToSign",
+    "Validated At": "2026-01-12 11:00:45.476797839 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2026-01-12 10:14:03.549932107 UTC",
-    "Active Request ID": "dd9cfa50-4249-452c-8acb-769eb98672d0",
+    "Updated At": "2026-01-12 11:00:45.476801857 UTC",
+    "Active Request ID": "1c7c7b9c-40d4-463e-8b8d-8a20e452aa35",
     "On Chain Address": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
     "Multisig Address": "false",
     "edited": false
@@ -152,6 +152,15 @@
           "Increase allowance CID": "bafy2bzacebxceb2k6pikfuo3jp4a3lhlpkmeu2hdofbqfo6lkaftqvzx65p64"
         }
       ]
+    },
+    {
+      "ID": "1c7c7b9c-40d4-463e-8b8d-8a20e452aa35",
+      "Request Type": "Refill",
+      "Created At": "2026-01-12 11:00:45.476850859 UTC",
+      "Updated At": "2026-01-12 11:00:45.476851470 UTC",
+      "Active": true,
+      "Allocation Amount": "1125899906842624B",
+      "Signers": []
     }
   ],
   "Storage Providers Change Requests": [
@@ -223,9 +232,6 @@
             ]
           },
           "Remove Allowed Storage Providers CID": {
-            "bafy2bzacebggys6q5iaw6jwhedjsokyp3xydgmgiy5gygc6jtbhie2bf3lxhc": [
-              "3100007"
-            ],
             "bafy2bzacecmkgnf7loz4nccntdcsno5ho37h5ol22hcl2fgwyeor5lktcxdeg": [
               "3289271",
               "3315260",
@@ -235,6 +241,9 @@
               "3603117",
               "3559187",
               "3100006"
+            ],
+            "bafy2bzacebggys6q5iaw6jwhedjsokyp3xydgmgiy5gygc6jtbhie2bf3lxhc": [
+              "3100007"
             ]
           }
         }
