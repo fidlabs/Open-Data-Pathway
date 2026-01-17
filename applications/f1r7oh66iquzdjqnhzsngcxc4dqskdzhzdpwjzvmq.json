@@ -24,7 +24,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany (deprecated)\nf03315260 Germany (deprecated)\nf03367915 United States (deprecated)\nf03542777 Vietnam (deprecated)\nf03607310 Brazil (deprecated)\nf03603117 United States (deprecated)\nf03559187 United States (deprecated)\nf03100006 HongKong (deprecated)\nf03100007 HongKong (deprecated)\nf03649204 Hong Kong  (deprecated)\nf03649212 Hong Kong (deprecated)\nf03649217 Singapore  (deprecated)\nf03649227 Singapore  (deprecated)\nf03673681 Brazil (deprecated)\n\nf03099008 Vietnam (NEW)\nf03099888 Germany  (NEW)\nf03100088 United States (NEW)\nf03099287 Brazil (NEW)\nf03098965 Singapore (NEW)\nf03099101 Singapore (NEW)\nf03669112 Singapore (NEW)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany (deprecated)\nf03315260 Germany (deprecated)\nf03367915 United States (deprecated)\nf03542777 Vietnam (deprecated)\nf03607310 Brazil (deprecated)\nf03603117 United States (deprecated)\nf03559187 United States (deprecated)\nf03100006 HongKong (deprecated)\nf03100007 HongKong (deprecated)\nf03649204 Hong Kong  (deprecated)\nf03649212 Hong Kong (deprecated)\nf03649217 Singapore  (deprecated)\nf03649227 Singapore  (deprecated)\nf03673681 Brazil (deprecated)\n\nf03099888 Germany  (NEW)\nf03100088 United States (NEW)\nf03099287 Brazil (NEW)\nf03098965 Singapore (NEW)\nf03099101 Singapore (NEW)\nf03669112 Singapore (NEW)\nf03100014 HongKong (NEW)\nf03099777 Germany (NEW)",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -44,7 +44,7 @@
     "Active Request ID": "1c7c7b9c-40d4-463e-8b8d-8a20e452aa35",
     "On Chain Address": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
