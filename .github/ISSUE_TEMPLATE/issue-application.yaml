@@ -295,7 +295,7 @@ body:
     required: true
 - type: input
   attributes:
-    label: Website
+    label: Website of the dataowner
   validations:
     required: true
 - type: input
@@ -325,6 +325,10 @@ body:
       - Other
   validations:
     required: true
+- type: markdown
+  attributes:
+    value: |
+      # About DataCap request
 - type: input
   attributes:
     label: Total amount of DataCap being requested 
@@ -341,13 +345,13 @@ body:
   attributes:
     label: Number of replicas to store
     options:
+      - 2
+      - 3
       - 4
       - 5
       - 6
       - 7
       - 8
-      - 9
-      - 10
   validations:
     required: true
 - type: input
@@ -362,29 +366,89 @@ body:
     description: Make sure the address exists on the chain. This cannot be changed once input here. Also make sure that this address is not used for other applications.
   validations:
     required: true
+- type: markdown
+  attributes:
+    value: |
+      # Service Class Expectation
 - type: dropdown
   attributes:
     label: Data Type of Application
     options:    
-      - Slingshot
-      - Public, Open Dataset (Research/Non-Profit)
-      - Public, Open Commercial/Enterprise
-      - Private Commercial/Enterprise
-      - Private Non-Profit / Social impact
+      - Non-encrypted, publicly accessible
+      - Encrypted, private data
   validations:
     required: true
 - type: checkboxes
   attributes:
-    label: Custom multisig 
-    description: Check this box off if you have explicitly been asked to by the governance team.
-    options:
-      - label: "Use Custom Multisig"
+    label: Manifest location
+    description: For publicly accessible datasets, how will users be able to find the dataset?
+    options: 
+      - label: Accessible through the official Filecoin dataset discovery (Currently toads.directory, must be prepared according to TOADS standards)
+      - label: Accessible through another website (give details below)
+      - label: This won't be publicly accessible
+  validations:
+    required: true
 - type: input
   attributes:
-    label: Identifier
-    description: If needed Filecoin team will fill up this field later on. You can skip this field.
+    label: URL under which the dataset will be discoverable
+    description: This is for publicly accessible datasets published in exploreres/directories other than the official Filecoin directory.  
   validations:
     required: false
+- type: dropdown
+  attributes:
+    label: What type of payment proof will you provide?
+    description: It is a general expectation that SPs should be paid for storage.
+    options:
+      - Off-chain (invoice, bank statement etc)
+      - Non Filecoin on-chain (txID on a non-Filecoin chain)
+      - Filecoin txID
+      - No Payment
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: What retrievability guarantees do you expect for this dataset?
+    description: How readily available should the dataset be?
+    options: 
+      - Hot - data should be always available for retrievals (RPA 90%+)
+      - Sometimes - retrievability checks over 75%, whole dataset should be retrievable in 8/10 of attempts.
+      - Raraly - retrievability checks over 75%, and dataset should be made available within 24h of request.
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: How long should a download take?
+    description: It always depends on the size of your dataset, but throughput can always be measured. 
+    options: 
+      - Fast - sustained 1 Gbps.
+      - Normal - sustained 300 Mbps.
+      - I have lots of time - sustained 1Mbps.
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: How often will this dataset be accessed?
+    options:
+      - Daily
+      - Weekly
+      - Monthly
+      - Yearly
+      - Sporadic
+      - Never
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: For how long do you plan to keep this dataset stored on Filecoin
+    options:
+      - Less than 1 year
+      - 1 to 1.5 years
+      - 1.5 to 2 years
+      - 2 to 3 years
+      - More than 3 years
+      - Permanently
+  validations:
+    required: true
 - type: markdown
   attributes:
     value: |
@@ -730,30 +794,6 @@ body:
     render: text
   validations:
     required: false
-- type: dropdown
-  attributes:
-    label: What is the expected retrieval frequency for this data
-    options:
-      - Daily
-      - Weekly
-      - Monthly
-      - Yearly
-      - Sporadic
-      - Never
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: For how long do you plan to keep this dataset stored on Filecoin
-    options:
-      - Less than 1 year
-      - 1 to 1.5 years
-      - 1.5 to 2 years
-      - 2 to 3 years
-      - More than 3 years
-      - Permanently
-  validations:
-    required: true
 - type: markdown
   attributes:
     value: |
@@ -819,6 +859,7 @@ body:
     multiple: true
     options:
       - Boost client
+      - Curio client
       - Lotus client
       - Droplet client
       - Bidbot
@@ -831,12 +872,3 @@ body:
     render: text
   validations:
     required: false
-- type: dropdown
-  attributes:
-    label: Can you confirm that you will follow the Fil+ guideline 
-    description: Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap
-    options:
-      - "Yes"
-      - "No"
-  validations:
-    required: true
