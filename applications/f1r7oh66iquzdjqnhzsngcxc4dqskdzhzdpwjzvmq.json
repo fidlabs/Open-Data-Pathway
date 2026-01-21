@@ -44,7 +44,7 @@
     "Active Request ID": "1c7c7b9c-40d4-463e-8b8d-8a20e452aa35",
     "On Chain Address": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
@@ -196,6 +196,9 @@
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Set Max Deviation CID": "bafy2bzacecxh7ec3y57bel7afsmegwtoxjac7jlu5pmwmlfluaptsrsnxcace",
           "Add Allowed Storage Providers CID": {
+            "bafy2bzacealaebjoqqmahxzxfg2z554crnneaop55vtivhucpy5ylypxlpzam": [
+              "3100007"
+            ],
             "bafy2bzacec763ycluoamqzqrcyqpbvd346w5utnkmixemsznpt6d5y6fppoes": [
               "3289271",
               "3315260",
@@ -205,9 +208,6 @@
               "3603117",
               "3559187",
               "3100006"
-            ],
-            "bafy2bzacealaebjoqqmahxzxfg2z554crnneaop55vtivhucpy5ylypxlpzam": [
-              "3100007"
             ]
           }
         }
