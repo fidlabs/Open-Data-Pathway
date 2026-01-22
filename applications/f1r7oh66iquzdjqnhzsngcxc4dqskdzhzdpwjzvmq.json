@@ -36,7 +36,7 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2026-01-12 11:03:34.268861324 UTC",
     "Validated By": "dampud",
     "Active": true,
@@ -241,9 +241,6 @@
             ]
           },
           "Remove Allowed Storage Providers CID": {
-            "bafy2bzacebggys6q5iaw6jwhedjsokyp3xydgmgiy5gygc6jtbhie2bf3lxhc": [
-              "3100007"
-            ],
             "bafy2bzacecmkgnf7loz4nccntdcsno5ho37h5ol22hcl2fgwyeor5lktcxdeg": [
               "3289271",
               "3315260",
@@ -253,6 +250,9 @@
               "3603117",
               "3559187",
               "3100006"
+            ],
+            "bafy2bzacebggys6q5iaw6jwhedjsokyp3xydgmgiy5gygc6jtbhie2bf3lxhc": [
+              "3100007"
             ]
           }
         }
