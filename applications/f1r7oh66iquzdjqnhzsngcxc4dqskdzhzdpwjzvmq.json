@@ -36,11 +36,11 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2026-01-23 11:45:38.138893023 UTC",
+    "State": "Granted",
+    "Validated At": "2026-01-23 11:49:41.850159032 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2026-01-23 11:45:38.138896683 UTC",
+    "Updated At": "2026-01-23 11:49:41.850154449 UTC",
     "Active Request ID": "36e5a536-f24e-4279-846b-f2de06378968",
     "On Chain Address": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
     "Multisig Address": "false",
@@ -176,9 +176,18 @@
       "Request Type": "Refill",
       "Created At": "2026-01-23 11:45:38.138935814 UTC",
       "Updated At": "2026-01-23 11:45:38.138936568 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "2251799813685248B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "2251799813685248B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2026-01-23 11:49:38.834000000 UTC",
+          "Message CID": "bafy2bzaceautpjspv6gpnbraviltwbloegz4nlvvjguupbygkiv75g6b6kn7m",
+          "Increase allowance CID": "bafy2bzacecwjyzpniwygcrgjgs677gq24hmtlle62epbcjbpowi2kt2qulx3g"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
@@ -205,9 +214,6 @@
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Set Max Deviation CID": "bafy2bzacecxh7ec3y57bel7afsmegwtoxjac7jlu5pmwmlfluaptsrsnxcace",
           "Add Allowed Storage Providers CID": {
-            "bafy2bzacealaebjoqqmahxzxfg2z554crnneaop55vtivhucpy5ylypxlpzam": [
-              "3100007"
-            ],
             "bafy2bzacec763ycluoamqzqrcyqpbvd346w5utnkmixemsznpt6d5y6fppoes": [
               "3289271",
               "3315260",
@@ -217,6 +223,9 @@
               "3603117",
               "3559187",
               "3100006"
+            ],
+            "bafy2bzacealaebjoqqmahxzxfg2z554crnneaop55vtivhucpy5ylypxlpzam": [
+              "3100007"
             ]
           }
         }
@@ -250,6 +259,9 @@
             ]
           },
           "Remove Allowed Storage Providers CID": {
+            "bafy2bzacebggys6q5iaw6jwhedjsokyp3xydgmgiy5gygc6jtbhie2bf3lxhc": [
+              "3100007"
+            ],
             "bafy2bzacecmkgnf7loz4nccntdcsno5ho37h5ol22hcl2fgwyeor5lktcxdeg": [
               "3289271",
               "3315260",
@@ -259,9 +271,6 @@
               "3603117",
               "3559187",
               "3100006"
-            ],
-            "bafy2bzacebggys6q5iaw6jwhedjsokyp3xydgmgiy5gygc6jtbhie2bf3lxhc": [
-              "3100007"
             ]
           }
         }
