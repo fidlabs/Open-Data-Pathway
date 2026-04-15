@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f3vgwgjshmvn6kgnagb4oggfi62rrg2ox7qp3khgnvre47j2aftzt52cyzfb3e4clyi64svggf7xadpugf6z4q",
+  "Issue Number": "203",
+  "Client": {
+    "Name": "Oliver Krautgartner / PROMETHEUS Storage",
+    "Region": "Austria",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.forstmulcher.at",
+    "Social Media": "@oliverkrautgartner",
+    "Social Media Type": "Instagram",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "PROMETHEUS Storage is an Austrian-based Filecoin Storage Provider operating in Wenigzell, Steiermark (rural eastern Austria). Founded 2024 as part of a broader European decentralized-infrastructure initiative, the operator currently runs approximately 742 TB of usable storage across three Synology DS2419+II NAS arrays with expansion units plus dedicated HP Z840 workstation nodes equipped with enterprise-grade Toshiba MG09 18TB HDDs and NVIDIA RTX 4060 Ti GPUs for SNARK proof generation.\n\nMiner ID: f03769188 (robust address: f2pfd7mcrl2gfdc4dkts6rktfyhlzwnacvr3onq2i)\nWallet balance: ~883 FIL available for sector pledging\nChain status: fully synced (validated against chain head)\n\nInitial sector pledge batch encountered a memory constraint incident on 2026-04-08 which was diagnosed and permanently fixed with strict cgroup limits (MemoryMax=380G, CPUAffinity capped, MULTICORE_SDR producers reduced). Pipeline has resumed with 2 CC sectors currently in PreCommit1 and a hardened auto-pause watchdog in place to prevent recurrence. We are ramping up pledging capacity over the coming weeks as the hardware is now validated as stable.\n\nHardware details:\n- Node: HP Z840 Workstation, 80 CPU cores, 499 GB RAM, 2x NVIDIA RTX 4060 Ti 16GB\n- Sealing tier: local NVMe scratch + 16 TB HDD local, 195 TB NFS cold (CH5), 366 TB NFS cold (CH10)\n- Network: European-hosted, symmetrical gigabit uplink\n- Deal-making: Boost v2.5.0 installed and operational since 2026-04-10\n\nOur goal is to contribute meaningful European-hosted decentralized storage capacity for public datasets, starting with a verified mirror of OpenStreetMap Planet snapshots.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "We propose to store and serve a verified mirror of the OpenStreetMap Planet snapshots (https://planet.openstreetmap.org) — the complete OpenStreetMap dataset of the world's open mapping data. Specifically:\n\n- Weekly Planet OSM PBF snapshots (~80 GB compressed each)\n- Diff history archives (minutely/hourly/daily replication streams)\n- Selected regional extracts with focus on Europe and the DACH region (Austria, Germany, Switzerland)\n\nThis data is foundational for cartography, navigation, urban planning, humanitarian mapping efforts (e.g., HOT - Humanitarian OpenStreetMap Team), and academic geography research. OSM Planet snapshots are presently centralized on the OSM Foundation servers at planet.openstreetmap.org. Having decentralized European mirrors improves data availability, resilience, and reduces single-point-of-failure risk for the European OSM community and derived services.\n\nThe data is published under the Open Database License (ODbL) which explicitly permits and encourages mirroring and redistribution. We have read and comply with the ODbL requirements including proper attribution.\n\nInitial allocation target: Planet OSM snapshot from a recent anchor date + 6 months of historical snapshots for temporal analysis use cases.",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "",
+    "In which geographies do you plan on making storage deals": "",
+    "How will you be distributing your data to storage providers": "",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5TiB",
+    "Single Size Dataset": "1TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "1TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2026-04-15 15:50:46.086975402 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f3vgwgjshmvn6kgnagb4oggfi62rrg2ox7qp3khgnvre47j2aftzt52cyzfb3e4clyi64svggf7xadpugf6z4q",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
