@@ -36,12 +36,12 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2026-01-23 11:49:41.850159032 UTC",
+    "State": "ReadyToSign",
+    "Validated At": "2026-08-25 14:09:07.919606017 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2026-01-23 11:49:41.850154449 UTC",
-    "Active Request ID": "36e5a536-f24e-4279-846b-f2de06378968",
+    "Updated At": "2026-08-25 14:09:07.919610009 UTC",
+    "Active Request ID": "db0c34f5-2a2b-414b-a5a3-f5637679f831",
     "On Chain Address": "f1r7oh66iquzdjqnhzsngcxc4dqskdzhzdpwjzvmq",
     "Multisig Address": "false",
     "edited": false
@@ -188,6 +188,15 @@
           "Increase allowance CID": "bafy2bzacecwjyzpniwygcrgjgs677gq24hmtlle62epbcjbpowi2kt2qulx3g"
         }
       ]
+    },
+    {
+      "ID": "db0c34f5-2a2b-414b-a5a3-f5637679f831",
+      "Request Type": "Refill",
+      "Created At": "2026-08-25 14:09:07.919640157 UTC",
+      "Updated At": "2026-08-25 14:09:07.919640864 UTC",
+      "Active": true,
+      "Allocation Amount": "1024B",
+      "Signers": []
     }
   ],
   "Storage Providers Change Requests": [
@@ -214,6 +223,9 @@
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Set Max Deviation CID": "bafy2bzacecxh7ec3y57bel7afsmegwtoxjac7jlu5pmwmlfluaptsrsnxcace",
           "Add Allowed Storage Providers CID": {
+            "bafy2bzacealaebjoqqmahxzxfg2z554crnneaop55vtivhucpy5ylypxlpzam": [
+              "3100007"
+            ],
             "bafy2bzacec763ycluoamqzqrcyqpbvd346w5utnkmixemsznpt6d5y6fppoes": [
               "3289271",
               "3315260",
@@ -223,9 +235,6 @@
               "3603117",
               "3559187",
               "3100006"
-            ],
-            "bafy2bzacealaebjoqqmahxzxfg2z554crnneaop55vtivhucpy5ylypxlpzam": [
-              "3100007"
             ]
           }
         }
@@ -259,9 +268,6 @@
             ]
           },
           "Remove Allowed Storage Providers CID": {
-            "bafy2bzacebggys6q5iaw6jwhedjsokyp3xydgmgiy5gygc6jtbhie2bf3lxhc": [
-              "3100007"
-            ],
             "bafy2bzacecmkgnf7loz4nccntdcsno5ho37h5ol22hcl2fgwyeor5lktcxdeg": [
               "3289271",
               "3315260",
@@ -271,6 +277,9 @@
               "3603117",
               "3559187",
               "3100006"
+            ],
+            "bafy2bzacebggys6q5iaw6jwhedjsokyp3xydgmgiy5gygc6jtbhie2bf3lxhc": [
+              "3100007"
             ]
           }
         }
